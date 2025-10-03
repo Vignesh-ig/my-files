@@ -1,0 +1,49 @@
+{
+  "groupId": "gpmedgroup",
+  "formPackets": [
+    {
+      "packetId": "1",
+      "name": "General Form Packet",
+      "forms": [
+        {
+          "formId": "intakeForm",
+          "title": "Patient Intake Form",
+          "pages": [
+            {
+              "pageId": "page1",
+              "pageTitle": "Patient Information",
+              "fields": [
+                {
+                  "id": "firstName",
+                  "type": "text",
+                  "label": "First Name",
+                  "required": true,
+                  "placeholder": "Enter first name"
+                },
+                {
+                  "id": "lastName",
+                  "type": "text",
+                  "label": "Last Name",
+                  "required": true,
+                  "placeholder": "Enter last name"
+                },
+                {
+                  "id": "gender",
+                  "type": "radio",
+                  "label": "Gender",
+                  "options": ["Male", "Female", "Other"],
+                  "required": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "primaryColor": "#007bff",
+    "fontFamily": "Arial, sans-serif",
+    "borderStyle": "solid"
+  }
+}
