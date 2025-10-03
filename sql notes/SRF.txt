@@ -1,0 +1,175 @@
+power()
+sqrt()
+trim()
+add_months()
+months_between()
+nvl2()
+nvl() [NULL VALUE LOGIC] - nvl(args1, args2)  --example :- 800+nvl(NULL,10) ==> 810
+			- in args1 col_name (which is having null)
+			- in args2 number (any number value)
+
+			===> * if the place is VALUE, then that VALUE will be considering
+			     * if the place is NULL, then that NUMERIC value will be considering.
+
+
+(DENSE_RANSE -- MYSQL)  
+---------------------------------------------------------------------------------------
+POWER() 
+=======
+* this power function is used to fetch the power of the value.
+
+		(OR)
+
+*this function is used to find the power of a given 
+
+Syntax :- POWER(NUMBER, POWER VALUE) ---- power(x,n) ---- power(5,2) --- 5**2 --- 25
+
+Example :- 
+SQL> select power(5,2) from dual;  //input query
+//output
+POWER(5,2)
+---------
+       25
+
+---------------------------------------------------------------------------------------
+
+SQRT()
+======
+*this function is used to give the square root of a number.
+
+Syntax :- SQRT(NUMBER)
+
+Example :- 
+SQL> select sqrt(25) from dual;
+
+  SQRT(25)
+----------
+         5
+---------------------------------------------------------------------------------------
+
+trim()
+======
+*this function is used to remove the unwanted space or unwanted characters from the begining or ending or both.
+
+Syntax :- TRIM( LEADING/TRAILING/BOTH 'char' FROM 'string')
+
+leading - starting
+trailing - ending
+both - both stating and ending
+char - which character has to be remove from start and end 
+string - from which string 
+
+Examples :-
+SQL>  select trim(leading '_' from '_qspiders') from dual;
+TRIM
+--------
+qspiders
+
+SQL> select trim(trailing 's' from ' qspiders') from dual;
+TRIM
+--------
+_qspider
+
+SQL> select trim(leading ' ' from ' qspiders'),trim(trailing 's' from ' qspiders') from dual;
+
+TRIM(LEA TRIM(TRA
+-------- --------
+qspiders  qspider
+
+
+---------------------------------------------------------------------------------------
+
+add_months()
+============
+* this function is used to add the number of months for a given date.
+* it will add only no. of months.
+
+NOTE:- 
+* it will add the number of month that user given and gives last day of the added month as output
+* it will not add no. of date (OR) no. of years.
+
+Syntax :- ADD_MONTHS('DATE', NO.OF MONTHS) 
+
+Examples :- 
+SQL> select add_months(sysdate,1) from dual;
+
+ADD_MONTH
+---------
+23-MAR-24
+
+SQL> select add_months('29-feb-24',1) from dual;
+
+ADD_MONTH
+---------
+31-MAR-24
+
+SQL> select add_months('31-jan-24',1) from dual;
+
+ADD_MONTH
+---------
+29-FEB-24
+
+SQL> select add_months('30-jan-24',1) from dual;
+
+ADD_MONTH
+---------
+29-FEB-24
+
+
+---------------------------------------------------------------------------------------
+
+months_between()
+=================
+*this function is used to retrive the no. of months present in between the given dates.
+			(OR)
+*it is used to calculate from no. of months persent from date1 to date2.
+
+Syntax :- MONTHS_BETWEEN('DATE 1', 'DATE 2')
+
+Example :-
+SQL> select months_between('07-nov-2001',sysdate) from dual;
+
+MONTHS_BETWEEN('07-NOV-2001',SYSDATE)
+-------------------------------------
+                           -267.53347
+
+SQL> select months_between('23-oct-2001',sysdate) from dual;
+
+MONTHS_BETWEEN('23-OCT-2001',SYSDATE)
+-------------------------------------
+                                 -268
+
+SQL>select months_between('07-nov-2001','07-nov-2002') from dual;
+
+MONTHS_BETWEEN('07-NOV-2001','07-NOV-2002')
+-------------------------------------------
+                                        -12
+
+---------------------------------------------------------------------------------------
+
+nvl2() - [NULL VALUE LOGIC 2]
+=============================
+*
+
+Syntax :- NVL( args1, args2, args3) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

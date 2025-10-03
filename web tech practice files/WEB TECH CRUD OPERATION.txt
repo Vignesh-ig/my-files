@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <h1>TODO APP</h1>
+        <form action="" id="new_inp_form">
+            <input type="text" placeholder="enter a task here..." id="task_inp_value">
+            <input type="submit" value="Add Task" id="task_inp_btn">
+        </form>
+    </header>
+    <main>
+        <section id="contentBlock">
+            <h2>Tasks</h2>
+            <div id="tasks">
+                <!-- <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="Harish" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
+
+
+
+///*******Csss
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(8, 9, 68);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header > h1{
+    font-size: 44px;
+    color: rgb(12, 220, 123);
+    margin-bottom: 25px;
+}
+header > form > input#task_inp_value{
+    width: 500px;
+    height: 50px;
+    padding: 20px 20px;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color: #828282;
+}
+header > form > input#task_inp_value::placeholder{
+    color: #828282;
+}
+header > form >input#task_inp_btn{
+    padding: 16px 20px;
+    border-radius: 25px;
+    position: relative;
+    bottom: 2px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(12, 220, 123);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+header > form >input#task_inp_btn:hover{
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+main{
+    width: 100%;
+    height:600px;
+    background-color: rgb(8, 9, 68);
+    display: flex;
+    justify-content: center;
+}
+#contentBlock{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+#contentBlock > h2{
+    margin: 20px ;
+    font-size: 38px;
+    color: #fff;
+}
+#contentBlock > #tasks{
+    width: 800px;
+}
+#tasks > .task{
+    width: 100%;
+    display: flex;
+    margin-bottom: 5px;
+}
+.task > .content{
+    flex-basis: 70%;
+}
+.task > .content > .text{
+    width: 500px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+    font-size: 24px;
+}
+.task > .actions{
+    flex-basis: 30%;
+}
+.actions >.edit , .actions > .delete{
+padding: 10.5px 20px;
+background-color: rgb(12, 220, 123);
+color: #fff;
+font-weight: bold;
+border: none    ;
+border-radius: 25px;
+}
+
+
+//js
+let form=document.querySelector("#new_inp_form");
+let input=document.querySelector("#task_inp_value");
+let list_ele=document.querySelector("#tasks");
+
+form.addEventListener("submit",e=>{
+    e.preventDefault();
+    const inputValue = input.value;
+    // console.log(inputValue);
+    window.localStorage.setItem("todo",inputValue);
+    if(!inputValue){
+        alert("please fill out the field...");
+        return;
+    }
+
+    let task_ele=document.createElement("div");
+    task_ele.classList.add("task");
+
+    let content_ele=document.createElement("div");
+    content_ele.classList.add("content");
+
+    let input_ele=document.createElement("input");
+    input_ele.type="text";
+    input_ele.classList.add("text");
+    input_ele.value=inputValue;
+    input_ele.setAttribute("readonly","readonly");
+
+    content_ele.appendChild(input_ele);
+    task_ele.append(content_ele);
+
+    let action_ele=document.createElement("div");
+    action_ele.classList.add("actions");
+
+    let edit_btn = document.createElement("button");
+    edit_btn.classList.add("edit");
+    edit_btn.innerText="Edit";
+    let delete_btn = document.createElement("button");
+    delete_btn.classList.add("delete");
+    delete_btn.innerText="Delete";
+
+
+    action_ele.appendChild(edit_btn)
+    action_ele.appendChild(delete_btn)
+    task_ele.append(action_ele);
+
+    list_ele.append(task_ele);
+    input.value="";
+
+    // !edit
+    edit_btn.addEventListener("click",e=>{
+       if(e.target.innerText.toLowerCase() == "edit"){
+        input_ele.removeAttribute("readonly");
+        input_ele.focus();
+        edit_btn.innerText="Save"
+       }else{
+        input_ele.setAttribute("readonly","readonly"++7);
+        edit_btn.innerText="Edit"
+       }
+    })
+
+    // !delete
+    delete_btn.addEventListener("click",e=>{
+        list_ele.removeChild(task_ele)
+    })
+})

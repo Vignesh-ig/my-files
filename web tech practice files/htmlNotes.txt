@@ -1,0 +1,1059 @@
+DAY-1 28TH NOV 2023
+====================================
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="keywords" content="https://facebook.com , www.facebook.com , facebook.com , facebook , fb ">
+   <meta name="author" content="Harish">
+   <title>HTML BASICS</title>
+   <!-- <link rel="stylesheet" href="./style.css"  > -->
+</head>
+
+<body>
+   
+   <!-- !basic tags in html -->
+   <!-- <h1>Hyper text markup language</h1> -->
+   <!-- <h2>HYPER TEXT MARKUP LANGUAGE</h2>
+   <h3>HYPER TEXT MARKUP LANGUAGE</h3>
+   <h4>HYPER TEXT MARKUP LANGUAGE</h4>
+   <h5>HYPER TEXT MARKUP LANGUAGE</h5>
+   <h6>HYPER TEXT MARKUP LANGUAGE</h6> -->
+      <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, perferendis? Lorem ipsum dolor sit amet consectetur
+         adipisicing elit. Hic consequuntur blanditiis, nulla iure unde earum dolorem rerum repellendus. Repellendus
+         architecto ad temporibus doloribus qui perferendis corrupti molestias, fugiat reiciendis, saepe quae officiis
+         consequuntur unde totam dolorem facere quis quia id ducimus deleniti quaerat, tempora quas. Molestias quo earum
+         odio neque quidem minus nulla, quos explicabo laudantium voluptatum velit laboriosam delectus modi nihil alias
+      quis suscipit culpa. Hic dolore deleniti non enim autem quis, natus voluptatibus nobis expedita qui officia quam
+      at eligendi magnam quisquam ratione, ea adipisci atque praesentium dolor, veniam possimus nam et. Neque est
+      tenetur corrupti nostrum ab nobis voluptas? Sunt id recusandae labore itaque quasi obcaecati officiis qui, ducimus
+      voluptatum molestias nam ea neque cupiditate officia repellat, pariatur aut aliquam harum. Architecto alias culpa
+      quis expedita aliquam harum nulla quae tenetur! Possimus quam labore atque sed ut inventore quis eaque, officia,
+      sequi et sit molestias quae iusto illo fugit consectetur accusantium repudiandae voluptatum repellendus tempore
+      quod magnam delectus voluptatibus ea. Officia, mollitia cupiditate cum facilis a quas quidem iure saepe vitae
+      labore velit repellat quod esse consectetur laborum at? Incidunt unde ipsa magnam soluta qui vel, nihil fugit
+      quasi, illum est eum voluptatum quisquam doloribus harum. Atque itaque consequuntur obcaecati quibusdam aut sed.
+      Necessitatibus error ipsa dolorem, temporibus a earum in maxime reiciendis hic eum aut libero nesciunt sed beatae
+      consequatur ratione doloremque aperiam cum fugiat quisquam eveniet consectetur modi saepe! Rerum similique
+      repudiandae nisi esse maiores necessitatibus molestiae adipisci sit temporibus ea dolores dicta tenetur eius
+      asperiores non ab libero iusto nemo id, cupiditate dolorem corrupti. Culpa itaque iusto aut dolorum error
+      cupiditate nobis tempora corrupti voluptatem obcaecati facere harum ipsam sequi, odio consequuntur veritatis
+      adipisci quam earum ab, a perferendis nemo blanditiis hic? Explicabo obcaecati sunt ipsam, quia rerum eveniet enim
+      optio perferendis vel nihil adipisci, itaque, praesentium pariatur! Rerum enim laborum eos, inventore
+      perspiciatis, repudiandae ratione laboriosam aspernatur ut labore quasi voluptates eum possimus velit iure
+      architecto repellendus excepturi sunt ipsam odio ipsa quis earum. Autem, tempora odio, dolores explicabo culpa ex
+      ab possimus aliquam amet temporibus esse ullam. Obcaecati aut ea illum magni molestias dignissimos? Repellat minus
+      eaque quisquam accusantium fugit nam velit voluptatibus pariatur alias, illum nobis numquam quae at similique
+      magni qui iste suscipit sint. Nostrum sunt ex cupiditate quibusdam, sed, voluptatum cum consectetur laboriosam
+      similique deleniti molestiae quae dolorem. Beatae, quod explicabo! Facilis eos aliquid dicta assumenda, soluta doloremque explicabo.</p> -->
+      <!-- <div> -->
+         <!-- <h1>Hyper text markup language</h1>
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, perferendis? Lorem ipsum dolor sit amet consectetur
+         adipisicing elit. Hic consequuntur blanditiis, nulla iure unde earum dolorem rerum repellendus. Repellendus
+         architecto ad temporibus doloribus qui perferendis corrupti molestias, fugiat reiciendis, saepe quae officiis
+         consequuntur unde totam dolorem facere quis quia id ducimus deleniti quaerat, tempora quas. Molestias quo earum
+         odio neque quidem minus nulla, quos explicabo laudantium voluptatum velit laboriosam delectus modi nihil alias
+      quis suscipit culpa. Hic dolore deleniti non enim autem quis, natus voluptatibus nobis expedita qui officia quam
+      at eligendi magnam quisquam ratione, ea adipisci atque praesentium dolor, veniam possimus nam et. Neque est
+      tenetur corrupti nostrum ab nobis voluptas? Sunt id recusandae labore itaque quasi obcaecati officiis qui, ducimus
+      voluptatum molestias nam ea neque cupiditate officia repellat, pariatur aut aliquam harum. Architecto alias culpa
+      quis expedita aliquam harum nulla quae tenetur! Possimus quam labore atque sed ut inventore quis eaque, officia,
+      sequi et sit molestias quae iusto illo fugit consectetur accusantium repudiandae voluptatum repellendus tempore
+      quod magnam delectus voluptatibus ea. Officia, mollitia cupiditate cum facilis a quas quidem iure saepe vitae
+      labore velit repellat quod esse consectetur laborum at? Incidunt unde ipsa magnam soluta qui vel, nihil fugit
+      quasi, illum est eum voluptatum quisquam doloribus harum. Atque itaque consequuntur obcaecati quibusdam aut sed.
+      Necessitatibus error ipsa dolorem, temporibus a earum in maxime reiciendis hic eum aut libero nesciunt sed beatae
+      consequatur ratione doloremque aperiam cum fugiat quisquam eveniet consectetur modi saepe! Rerum similique
+      repudiandae nisi esse maiores necessitatibus molestiae adipisci sit temporibus ea dolores dicta tenetur eius
+      asperiores non ab libero iusto nemo id, cupiditate dolorem corrupti. Culpa itaque iusto aut dolorum error
+      cupiditate nobis tempora corrupti voluptatem obcaecati facere harum ipsam sequi, odio consequuntur veritatis
+      adipisci quam earum ab, a perferendis nemo blanditiis hic? Explicabo obcaecati sunt ipsam, quia rerum eveniet enim
+      optio perferendis vel nihil adipisci, itaque, praesentium pariatur! Rerum enim laborum eos, inventore
+      perspiciatis, repudiandae ratione laboriosam aspernatur ut labore quasi voluptates eum possimus velit iure
+      architecto repellendus excepturi sunt ipsam odio ipsa quis earum. Autem, tempora odio, dolores explicabo culpa ex
+      ab possimus aliquam amet temporibus esse ullam. Obcaecati aut ea illum magni molestias dignissimos? Repellat minus
+      eaque quisquam accusantium fugit nam velit voluptatibus pariatur alias, illum nobis numquam quae at similique
+      magni qui iste suscipit sint. Nostrum sunt ex cupiditate quibusdam, sed, voluptatum cum consectetur laboriosam
+      similique deleniti molestiae quae dolorem. Beatae, quod explicabo! Facilis eos aliquid dicta assumenda, soluta
+      doloremque explicabo.</p> 
+      </div> -->
+      <!-- <a href=https://www.google.com>Google</a><br> -->
+      <!-- <a href=https://www.youtube.com/>YouTube</a>  -->
+      <!-- <img src=./sunset-8401670_640.webp> -->
+   <!-- !content to be hidden from the end user / to give information to the developers -->
+<!-- !Attributes -->
+<!-- !Global attribute -->
+<!-- 
+<h1 id="header">HTML</h1>
+<h1>CSS</h1>
+<h1>JAVASCRIPT</h1>
+<h1>REACT JS</h1>
+<hr>
+<h1 class="test">HTML</h1>
+<h1 class="test">CSS</h1>
+<h1 class="test test1">JAVASCRIPT</h1>
+<h1>REACT JS</h1>
+   -->
+<!-- <img src="./sunset-8401670_640.webp" alt="" id="image" title="nature image is displaying on the browser" style="border-radius: 50%;width:300px;height:300px">
+<h1 style="color:blue;text-decoration: underline;background-color: beige;" title="Hyper Text Markup Language Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae vitae facilis, nemo quisquam maxime, voluptatem nisi alias neque eius ad error magnam laudantium, rem est incidunt dolores! Ipsa hic autem distinctio, laborum consequatur labore aperiam adipisci doloremque at nemo earum, illo molestias esse, sapiente quam voluptates a commodi harum. Illum.">HTML</h1> -->
+
+<!-- !Local attributes -->
+<!-- <a href="https://www.google.com" alt="ANIMAL">Link</a>
+
+<h1 href="https://www.google.com">Google</h1>
+<img src="./sunset-8401670_640.webp" alt="ANIMAL" href="https://www.google.com   ">
+<span src="./sunset-8401670_640.webp">SPAN TAG</span>
+<div src="./sunset-8401670_640.webp">DIVISON</div> -->
+
+
+<!-- !Boolean attributes -->
+<select name="" id="" multiple>
+   <option value="HTML">HTML</option>
+   <option value="CSS">CSS</option>
+   <option value="JS">JS</option>
+   <option value="REACT">REACT</option>
+   <option value="ANGULAR">ANGULAR</option>
+</select>
+
+<audio src="./WhatsApp Audio 2023-07-24 at 1.10.17 PM.mpeg" controls></audio>
+</body>
+</html>
+
+
+=================================
+DAY-2 1 DEC 2023
+==================================
+
+<!--!Formatting tags  -->
+   <!-- <p>
+      <b>Lorem</b>, <strong>ipsum</strong> <i>dolor</i> 
+      <em>sit</em> <u>amet</u> <ins>consectetur</ins> 
+      <del>adipisicing</del> <strike>elit</strike>. 
+      <mark>Dolorem quo et ut natus esse eveniet!</mark>
+       <tt>Asperiores</tt> vel
+      <small>sint</small> quia <big>totam</big>.
+   </p>
+   <h1>H<sub>2</sub>O</h1>
+   <h1>H<sup>2</sup>O</h1>
+<h1>2<sup>5</sup></h1> -->
+<!-- <abbr title="hyper text markup language">html</abbr> -->
+   <!-- !quatations tags -->
+   <!-- <blockquote>
+   <p>Lorem ipsum dolor sit <q style="background: yellow;">Natus quasi sint</q>
+         excepturi, ad necessitatibus</q> qui odio fugit molestiae quo tempora? Lorem ipsum dolor sit amet consectetur
+      adipisicing elit.<abbr title="hyper text markup language">html</abbr> Magnam eaque nulla neque, atque cum tempora. Consectetur pariatur, numquam aut eius animi
+      dolores soluta quaerat voluptatibus! Omnis atque, distinctio culpa rerum corrupti repudiandae? Quis hic
+      exercitationem dignissimos autem obcaecati velit accusantium vitae quibusdam! Quae officiis odio enim tenetur
+      error tempore alias animi rerum sunt, excepturi a, nemo illo veritatis delectus, qui eveniet eligendi expedita
+      obcaecati itaque facere. Doloribus quas incidunt ad id ipsa ea architecto voluptate et tempore voluptatibus. Enim
+      dolore, accusamus dolorum repellendus quasi unde, aliquid necessitatibus natus libero, iusto numquam quisquam
+      consectetur. Nesciunt ipsa, autem laborum a harum quia ducimus aliquam quaerat expedita vitae deleniti quisquam
+      officia molestias unde veritatis quo animi impedit quis porro cum explicabo et doloremque dolorem totam. Repellat
+      tenetur tempore doloribus similique inventore reiciendis et cumque illo impedit velit sunt, accusamus aliquam
+      commodi quaerat aspernatur nihil illum ab vero recusandae quas! Dolor, quidem quae. Nemo! Lorem ipsum dolor sit
+      amet consectetur adipisicing elit. Repellat natus saepe facilis voluptatem, itaque eveniet? Laborum cumque, eius
+      tempora veritatis ullam maxime dolorum sequi tempore dolorem deleniti laboriosam magnam veniam aut itaque ducimus
+      debitis? Natus, quos? Maiores molestiae aliquam corporis amet, alias magni, itaque commodi id officia ad sed eos
+      asperiores fugit incidunt deserunt possimus vero quidem quae soluta fuga omnis. Molestiae, quo in! Ipsum quam nemo
+      inventore dolor ex neque autem provident quis reiciendis reprehenderit eius incidunt excepturi voluptatibus
+      quisquam libero repellat doloribus quos quo repellendus facilis animi, blanditiis voluptate facere. Omnis,
+      repellendus nesciunt! Natus pariatur eveniet libero corporis.</p></blockquote>
+
+     2050\\0
+
+      <!-- !HTML Entity -->
+      <!-- <h1>></h1>
+      <h1><</h1> -->
+      <!-- <h1>&ShortRightArrow;</h1>
+      <h1>&gt;</h1>
+      <h1>&GreaterFullEqual;</h1>
+      <h1>&lt;</h1>
+      <h1>&LeftTriangleBar;</h1>
+      <h1>&LessFullEqual;</h1>
+      <h1>&theta;</h1>
+      <h1>&copy;</h1>
+      <h1>&reg;</h1>
+      <h1>&amp;n</h1>
+      > -->
+      <!-- <h1>hello&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;world!!!</h1> -->
+      <!-- <pre>
+         hello               hi 
+         good morning 
+
+         buddies
+      </pre> -->
+
+
+
+
+
+      ///***12/1/2023****///////////
+      <!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="keywords" content="https://facebook.com , www.facebook.com , facebook.com , facebook , fb ">
+   <meta name="author" content="Harish">
+   <title>HTML BASICS</title>
+   <link rel="stylesheet" href="./style.css"  >
+</head>
+
+<body>
+<!-- !block and inline level elements -->
+<!-- <div style="background-color: burlywood; width:40%;height:40vh">D Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, rerum necessitatibus facilis eum vero consectetur aliquid autem placeat? Quia, esse.</div> -->
+<!-- <div style="background-color: rgb(157, 222, 135);">D Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, rerum necessitatibus facilis eum vero consectetur aliquid autem placeat? Quia, esse.</div>
+<div style="background-color: rgb(135, 150, 222);">D Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, rerum necessitatibus facilis eum vero consectetur aliquid autem placeat? Quia, esse.</div>
+<div style="background-color: rgb(176, 222, 160);">D Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, rerum necessitatibus facilis eum vero consectetur aliquid autem placeat? Quia, esse.</div>
+<div style="background-color: rgb(222, 135, 210);">D Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, rerum necessitatibus facilis eum vero consectetur aliquid autem placeat? Quia, esse.</div> -->
+
+<!-- <h1 style="background-color: blue;">HEADER</h1> -->
+<!-- <span style="background-color: aquamarine;">SPAN TAG Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere molestias accusamus ipsum ullam provident ex distinctio illum quia? Earum, doloribus temporibus! Libero odit minima unde.</span> -->
+<!-- <span style="background-color: blueviolet;width: 100%;height: 70vh;border: 2px solid red;">SPAN TAG-1</span> -->
+<!-- <span style="background-color: rgb(226, 43, 43);">SPAN TAG-2</span>
+<a href="#" style="background-color: yellow;">Google</a> -->
+
+<!-- <div style="background-color: rgb(242, 255, 0);border: 4px solid blue;width:85px;padding: 45px;margin: 40px;">DIVISION-1</div> -->
+ <!-- <div style="background-color: rgb(242, 255, 0);border: 4px solid blue;width:85px;padding-left: 50px;">DIVISION-1</div>
+<div style="background-color: rgb(255, 85, 0);">DIVISION-2</div> <br><br> -->
+<!-- <span style="background-color: blue;color: #fff;border: 4px solid red;padding: 35px;">SPAN Tag</span> -->
+
+ <!-- <div style="background-color: rgb(242, 255, 0);border: 4px solid blue;margin-top: 50px;margin-right: 250px;margin-bottom: 55px;margin-left: 100px;">DIVISION-1</div>
+<div style="background-color: rgb(255, 85, 0);">DIVISION-2</div> 
+<span style="background-color: blue;color: #fff;border: 2px solid red;margin-top: 40px;margin-right: 55px;margin-bottom: 100px;margin-left: 100px;">SPAN Tag</span>
+<span style="background-color: rgb(21, 255, 0);color: #fff;border: 4px solid rgb(208, 0, 255);">SPAN Tag</span>
+<h1>Header</h1> -->
+<div style="background-color: aquamarine;">
+   Lorem ipsum dolor sit amet, consectetur adipisicing elit.<span style="background-color: bisque;">HELLO SPAN TAG</span> Recusandae, voluptates.
+   
+</div>
+
+
+
+<span style="background-color: tomato;">Lorem ipsum dolor sit <div style="background-color: chartreuse;">HELLO DIV</div>amet consectetur adipisicing elit. Saepe, ipsum?</span>
+
+
+</body>
+
+</html>
+
+
+=========================
+DAY-3 9 DEC 2023
+==========================
+
+<!-- <a href="./main.html" target="_self" >LINK</a> 
+<a href="https://pixabay.com/photos/piano-keyboard-music-keys-8413277/" target="_blank">PixaBay</a>
+
+<img src="./sunset-8401670_640.webp" alt="Buffalo" style="width:240px">
+ -->
+'<!-- <a href="https://pixabay.com/photos/mobile-phone-smartphone-keyboard-1917737/" target="_blank">
+   <img src="https://cdn.pixabay.com/photo/2016/12/19/08/39/mobile-phone-1917737_1280.jp" alt="mobile" style="width:350px;height: 350px;">
+</a> -->
+
+ <!-- !semantic elements -->
+<!-- 
+   <figure style="background-color: aqua;">
+      <img src="https://cdn.pixabay.com/photo/2023/11/21/21/38/puffins-8404284_1280.jpg" alt="" width="350px"
+         height="350px">
+      <figcaption>10.10.BIRDS</figcaption>
+   </figure> -->
+
+   <details>
+      <summary>HTML</summary>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos atque in vero alias pariatur aliquid magnam sunt
+         eius dolores voluptatum ea ratione perferendis, et rem dignissimos ut doloribus nobis. Asperiores expedita
+         aperiam alias molestias iure cumque ipsum explicabo unde aliquam odio dolores eos fuga assumenda repellat,
+         architecto amet ipsa quis!</p>
+         <img src="https://cdn.pixabay.com/photo/2023/11/21/21/38/puffins-8404284_1280.jpg" alt="" width="350px"
+         height="350px">
+        <details>
+         <summary>HTML</summary>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos atque in vero alias pariatur aliquid magnam sunt
+            eius<mark> dolores voluptatum ea ratione perferendis[""|</mark>, et rem dignissimos ut doloribus nobis. Asperiores expedita
+            aperiam alias molestias iure cumque ipsum explicabo unde aliquam odio dolores eos fuga assumenda repellat,
+            architecto amet ipsa quis!</p>
+            <img src="https://cdn.pixabay.com/photo/2023/11/21/21/38/puffins-8404284_1280.jpg" alt="" width="350px"
+            height="350px">
+        </details>
+   </details>
+
+    <!-- <ol type="1" start="" reversed>
+   <li>Apple</li>
+   <li>Orange</li>
+   <li>Kiwi</li>
+   <li>Grapes</li>
+   <li>Mango</li>
+  </ol> -->
+
+  <h1>Nested Order List</h1>
+  <ol>
+   <li>coffee
+      <ol type="a">
+         <li>Espresso</li>
+         <li>Latte</li>
+      </ol>
+   </li>
+   <li>Tea
+
+      <ol type="i">
+         <li>Black Tea</li>
+         <li>Green Tea</li>
+      </ol>
+   </li>
+   <li>Milk shake
+      <ol>
+         <li>Mango</li>
+         <li>Banana</li>
+      </ol>
+   </li>
+  </ol>
+
+  //?*example
+   <ol type="I">
+   <li>First level
+      <ol type="A">
+         <li>Second level</li>
+         <li>Second level
+            <ol>
+               <li>Third level</li>
+               <li>Third level
+                  <ol type="a">
+                     <li>Fourth level</li>
+                     <li>Fourth level 
+                        <ol type="i">
+                           <li>Fifth level</li>
+                           <li>Fifth level</li>
+                           <li>Fifth level</li>
+                           <li>Fifth level</li>
+                        </ol>
+                     </li>
+                     <li>Fourth level</li>
+                     <li>Fourth level</li>
+                  </ol>
+               </li>
+               <li>Third level
+                  <ol type="a">
+                     <li>Fourth level</li>
+                     <li>Fourth level</li>
+                  </ol>
+               </li>
+               <li>Third level</li>
+            </ol>
+         </li>
+         <li>Second level
+            <ol>
+               <li>Third level</li>
+               <li>Third level</li>
+            </ol>
+         </li>
+         <li>Second level</li>
+      </ol>
+   </li>
+   <li>First level
+      <ol type="A">
+         <li>Second level
+            <ol >
+               <li>Third level</li>
+		<li>Third level
+                  <ol type="a">
+                     <li>Fourth level</li>
+                     <li>Fourth level</li>
+                  </ol>
+               </li>
+            </ol>
+         </li>
+         <li>Second level</li>
+         <li>Second level</li>
+         <li>Second level</li>
+      </ol>
+   </li>
+   <li>First level</li>
+ </ol>
+
+ <!-- !unorder list -->
+<!-- <ul type="square">
+   <li>Apple</li>
+   <li>orange</li>
+   <li>grapes</li>
+   <li>kiwi</li>
+</ul> -->
+<!-- <ul>
+   <li>First level
+      <ul>
+         <li>Second level
+            <ul>
+               <li>Third level
+                  <ul>
+                     <li>Fourth level</li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+</ul> -->
+<!-- <ul>
+   <li>Fruits
+      <ul type="square">
+         <li>Apple
+            <ul>
+               <li>Green</li>
+               <li>Red</li>
+            </ul>
+         </li>
+         <li>orange</li>
+         <li>grapes</li>
+      </ul>
+   </li>
+   <li>Vegetables</li>
+   <li>Meat</li>
+</ul> -->
+
+
+<h2>List Example</h2>
+<ol>
+   <li>List item1
+      <ol type="A">
+         <li>Nested item1.1</li>
+         <li>Nested item1.2</li>
+      </ol>
+   </li>
+   <li>List item2
+      <ol>
+         <li>Nested item 2.1</li>
+         <li>Nested item 2.2
+            <ul>
+               <li>Nested item 2.2.1</li>
+               <li>Nested item 2.2.2
+                  <ul type="circle">
+                     <li>Nested item 2.2.2.1</li>
+                     <li>Nested item 2.2.2.2</li>
+                  </ul>
+               </li>
+               <li>Nested item 2.2.3</li>
+            </ul>
+         </li>
+         <li>Nested item 2.3</li>
+      </ol>
+   </li>
+   <li>List item3
+      <ul type="disc">
+      <li>Item1</li>
+      <li>Item2</li>
+      <li>Item3</li>
+      </ul>
+   </li>
+</ol>
+
+ <dl>
+      <dt>HTML\
+
+         
+      </dt>
+      <dd>Hypertext Markup Language (HTML) is an authoring tool that is used in creating Internet Web pages. When using
+         HTML a block of text is surrounded with tags that indicate to an Internet browser how the text is to appear
+         (for example, in bold face or italics). HTML is a collection of platform-independent styles (indicated by
+         markup tags) that define the various components of a Web document. It is the preferred tool for creating Web
+         pages because it is understood by all Internet browsers. Many Web designers who use HTML find it simple to
+         learn and easy to use, because it offers a stripped-down approach to Web design that does not rely a lot on
+         extraneous features. Another aspect of its popularity is its ability to deal quickly with bandwidth-friendly
+         text documents.
+
+         Internet lingo is full of acronyms and buzzwords. When you consider what each letter in HTML stands for, it may
+         be easier to understand exactly what it does and how it works.</dd>
+   </dl>
+  <ol reversed>
+   <li>list1</li>
+   <li>list2</li>
+   <li>list3</li>
+  </ol>
+
+  <!-- !Marquee tag -->
+<!-- <marquee behavior="alternate" direction="down" style="background-color: aquamarine;height: 40vh;">
+  <marquee behavior="" direction="">
+    Hyper Text Markup Language
+    <marquee behavior="" direction="">Cascading style sheet</marquee>
+  </marquee>
+   <img src="https://cdn.pixabay.com/photo/2023/09/18/13/46/spider-8260620_640.jpg" alt="" style="width: 100px;height: 100px;border-radius: 50%;">
+</marquee> -->
+
+<!-- !tables -->
+<!-- <table border="2px" cellspacing="20px" cellpadding="15px">
+ <tr>
+   <th>No.1</th>
+   <th>No.2</th>
+ </tr>
+ <tr>
+   <td>1</td>
+   <td>2</td>
+ </tr>
+ <tr>
+   <td>3</td>
+   <td>4</td>
+ </tr>
+</table> -->
+
+<!-- !example -->
+
+<!-- <table border="2px">
+   <caption>CSS3 Browser support(latest browser versions)</caption>
+<tr>
+      <th>CSS Property</th>
+      <th>Internet Explorer</th>
+      <th>FireFox</th>
+      <th>Chrome</th>
+      <th>Safari</th>
+      <th>Opera</th>
+   </tr>
+   <tr>
+      <th >Border radius</th>
+      <td align="center">YES</td>
+      <td align="center">YES</td>
+      <td align="center">YES</td>
+      <td align="center">YES</td>
+      <td align="center">YES</td>
+   </tr>
+   <tr>
+      <th>BOX Shadow</th>
+      <td align="center">YES</td>
+      <td align="center">YES</td>
+      <td align="center">YES</td>
+      <td align="center">YES</td>
+      <td align="center">YES</td>
+   </tr>
+   <tr>
+      <th>CSS Animations</th>
+      <td align="center">NO</td>
+      <td align="center">NO</td>
+      <td align="center">YES</td>
+      <td align="center">YES</td>
+      <td align="center">NO</td>
+   </tr>
+</table> -->
+
+
+<!-- !Example 2 -->
+<table border="2px" cellspacing="0px" cellpadding="10px" style="text-align: center;">
+   <caption>TABLE</caption>
+  <thead>
+   <tr>
+      <th>Day/Period</th>
+      <th>I<br> 9:30-10:20</th>
+      <th>II<br>10:20-11:10</th>
+      <th>III <br>11:10-12:00</th>
+      <th>12:00-12:40</th>
+      <th>IV<br>12:40-1:30</th>
+      <th>V<br>1:30-2:20</th>
+      <th>VI<br>2:20-3:10</th>
+      <th>VII <br>3:10-4:00</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <th>Monday</th>
+      <td>Eng</td>
+      <td>Mat</td>
+      <td>Che</td>
+      <td rowspan="6" style="font-weight: bolder;font-size: 28px;">
+         L<br>
+         U<br>
+         N<br>
+         C<br>
+         H
+      </td>
+      <td colspan="3">LAB</td>
+      <!-- <td>LAB</td>
+      <td>LAB</td> -->
+      <td>Phy</td>
+   </tr>
+   <tr>
+      <th>Tuesday</th>
+      <td colspan="3">LAB</td>
+      <!-- <td>LAB</td>
+      <td>LAB</td> -->
+      <!-- <td>Lunch</td> -->
+      <td>Eng</td>
+      <td>Mat</td>
+      <td>Che</td>
+      <td>Phy</td>
+   </tr>
+   <tr>
+<th>Wednesday</th>
+<td>Mat</td>
+<td>Phy</td>
+<td>Eng</td>
+<!-- <td>Lunch</td> -->
+<td>Che</td>
+<td colspan="3">LIBRARY</td>
+<!-- <td>LIBRARY</td>
+<td>LIBRARY</td> -->
+   </tr>
+   <tr>
+      <th>Thursday</th>
+      <td>Eng</td>
+      <td>Mat</td>
+      <td>Che</td>
+      <!-- <td>Lunch</td> -->
+      <td colspan="3">LAB</td>
+      <!-- <td>LAB</td>
+      <td>LAB</td> -->
+      <td>Phy</td>
+   </tr>
+   <tr>
+      <th>Friday</th>
+      <td colspan="3">LAB</td>
+      <!-- <td>LAB</td>
+      <td>LAB</td> -->
+      <!-- <td>Lunch</td> -->
+      <td>Eng</td>
+      <td>Mat</td>
+      <td>Che</td>
+      <td>Phy</td>
+   </tr>
+   <tr>
+      <th>Saturday</th>
+      <td>Eng</td>
+      <td>Mat</td>
+      <td>Che</td>
+      <!-- <td>Lunch</td> -->
+      <td colspan="3">SEMINAR</td>
+      <!-- <td>SEMINAR</td>
+      <td>SEMINAR</td> -->
+      <td>Sports</td>
+   </tr>
+  </tbody>
+</table>
+
+<!-- <table border="2px" cellspacing="0px" cellpadding="5px">
+   <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+   </tr>
+   <tr>
+      <td>5</td>
+      <td colspan="2">6</td>
+       <td>6</td> -->
+      <!-- <td>7</td>
+   </tr>
+   <tr>
+      <td rowspan="2">8</td>
+      <td>9</td>
+      <td rowspan="2">10</td>
+      <td>11</td>
+   </tr>
+   <tr> -->
+      <!-- <td>8</td> -->
+      <!-- <td>12</td> -->
+      <!-- <td>10</td> -->
+      <!-- <td>13</td> -->
+   <!-- </tr>
+</table> -->
+
+<table border="2px">
+   <tr>
+      <th rowspan="3">Day</th>
+      <th colspan="3">Seminar</th>
+      <!-- <th>Seminar</th>
+      <th>Seminar</th> -->
+   </tr>
+   <tr>
+      <!-- <th>Day</th> -->
+      <th colspan="2">Schedule</th>
+      <!-- <th>Schedule</th> -->
+      <th rowspan="2">Topic</th>
+   </tr>
+   <tr>
+      <!-- <th>Day</th> -->
+      <th>Begin</th>
+      <th>End</th>
+      <!-- <th>Topic</th> -->
+   </tr>
+   <tr>
+      <td rowspan="2">Monday</td>
+      <td rowspan="2" bgcolor="yellow">8.00am</td>
+      <td rowspan="2">5.00pm</td>
+<td>Introduction to xml</td>
+   </tr>
+   <tr>
+      <!-- <td>Monday</td>
+      <td>8.00am</td>
+      <td>5.00pm</td> -->
+      <td>Validity DTD</td>
+   </tr>
+   <tr>
+      <td rowspan="3">Tuesday</td>
+      <td >8.00am </td>
+      <td>11.00am</td>
+      <td rowspan="2">Xpath</td>
+   </tr>
+   <tr>
+      <!-- <td>Tuesday</td> -->
+      <td>11.00am </td>
+      <td>02.00pm</td>
+      <!-- <td>Xpath</td> -->
+   </tr>
+   <tr>
+      <!-- <td>Tuesday</td> -->
+      <td>02.00pm </td>
+      <td>05.00pm</td>
+      <td>XSL transformations</td>
+   </tr>
+   <tr>
+      <td>Wednesday</td>
+      <td>08.00pm </td>
+      <td>12.00pm</td>
+      <td>XSL Froamtting objects</td>
+   </tr>
+</table>
+
+
+============================
+DAY 4 - 11 DEC 2023
+============================
+
+<table border="2px">
+   <tr>
+      <th rowspan="3">Day</th>
+      <th colspan="3">Seminar</th>
+      <!-- <th>Seminar</th>
+      <th>Seminar</th> -->
+   </tr>
+   <tr>
+      <!-- <th>Day</th> -->
+      <th colspan="2">Schedule</th>
+      <!-- <th>Schedule</th> -->
+      <th rowspan="2">Topic</th>
+   </tr>
+   <tr>
+      <!-- <th>Day</th> -->
+      <th>Begin</th>
+      <th>End</th>
+      <!-- <th>Topic</th> -->
+   </tr>
+   <tr>
+      <td rowspan="2">Monday</td>
+      <td rowspan="2" bgcolor="yellow">8.00am</td>
+      <td rowspan="2">5.00pm</td>
+      <td>Introduction to xml</td>
+   </tr>
+   <tr>
+      <!-- <td>Monday</td>
+      <td>8.00am</td>
+      <td>5.00pm</td> -->
+      <td>Validity DTD</td>
+   </tr>
+   <tr>
+      <td rowspan="3">Tuesday</td>
+      <td >8.00am </td>
+      <td>11.00am</td>
+      <td rowspan="2">Xpath</td>
+   </tr>
+   <tr>
+      <!-- <td>Tuesday</td> -->
+      <td>11.00am </td>
+      <td>02.00pm</td>
+      <!-- <td>Xpath</td> -->
+   </tr>
+   <tr>
+      <!-- <td>Tuesday</td> -->
+      <td>02.00pm </td>
+      <td>05.00pm</td>
+      <td>XSL transformations</td>
+   </tr>
+   <tr>
+      <td>Wednesday</td>
+      <td>08.00pm </td>
+      <td>12.00pm</td>
+      <td>XSL Froamtting objects</td>
+   </tr>
+</table>
+
+<!-- <table border="2px">
+   <thead>
+      <tr>
+         <th>Sl.No</th>
+         <th>Name</th>
+         <th>Email</th>
+         <th>Phone</th>
+         <th>City</th>
+         <th>photo</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>1</td>
+         <td>Sam</td>
+         <td>sam@gmail.com</td>
+         <td>8123456790</td>
+         <td rowspan="2">Chennai</td>
+         <td><img style="width: 50px;height: 50px;border-radius: 50%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmJUeQCIV5gK-gudX5l3OIhRcmgnbtGDhExw&usqp=CAU" alt=""></td>
+      </tr>
+      <tr>
+         <td>2</td>
+         <td>Miller</td>
+         <td>mill@gmail.com</td>
+         <td>9123456790</td>
+       <td>Chennai</td> 
+         <td><img style="width: 50px;height: 50px;border-radius: 50%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmJUeQCIV5gK-gudX5l3OIhRcmgnbtGDhExw&usqp=CAU" alt=""></td>
+      </tr>
+      <tr>
+         <td>3</td>
+         <td>John</td>
+         <td>john@gmail.com</td>
+         <td>7123456790</td>
+         <td>Madurai</td>
+         <td><img style="width: 50px;height: 50px;border-radius: 50%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwGsNv23K5shKblMsKePA8o6M2kqBH39PZqA&usqp=CAU" alt=""></td>
+      </tr>
+      <tr>
+         <td>4</td>
+         <td>James</td>
+         <td>jamy@gmail.com</td>
+         <td>6123456790</td>
+         <td>Trichy</td>
+         <td><img style="width: 50px;height: 50px;border-radius: 50%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwGsNv23K5shKblMsKePA8o6M2kqBH39PZqA&usqp=CAU" alt=""></td>
+      </tr>
+   </tbody>
+</table> -->
+<table border="2px" cellspacing="5px" cellpadding="25px">
+   <tr>
+      <td >1</td>
+      <td>2</td>
+      <td>3</td>
+   </tr>
+   <tr>
+      <td>4</td>
+      <td>5</td>
+      <td>
+         <table border="1px" cellpadding="10px">
+            <tr>
+               <td>6.1</td>
+               <td>6.2</td>
+            </tr>
+            <tr>
+               <td>6.3</td>
+               <td>6.4</td>
+            </tr>
+         </table>
+      </td>
+   </tr>
+   <tr>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+   </tr>
+</table>
+
+-------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="keywords" content="https://facebook.com , www.facebook.com , facebook.com , facebook , fb ">
+   <meta name="author" content="Harish">
+   <title>HTML BASICS</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+   <h1>INDEX HTML DOCUMENT DISPLAYING</h1>
+<!-- !iframe tag -->
+<!-- <iframe src="./main.html" frameborder="1"></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t2d8PuNQaFA?si=iPwNQg7m5yg7sS2T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ky-KWkhXUXk?si=51pWSch3QtLWAcm5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8Es22nNJcGQ?si=JGCDMRcNoTp5VtE1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
+<!-- !media tags -->
+<!-- <audio src="./WhatsApp Audio 2023-07-24 at 1.10.17 PM.mpeg" controls loop autoplay></audio> -->
+
+<!-- <audio controls>
+   <source src="./WhatsApp Audio 2023-07-24 at 1.10.17 PM.mpeg">
+   <source src="./WhatsApp Audio 2023-07-24 at 1.10.17 PM.mpeg">
+   <source src="./WhatsApp Audio 2023-07-24 at 1.10.17 PM.mpeg">
+</audio> -->
+
+<!-- <video src="./video.mp4" controls loop autoplay></video> -->
+<video controls>
+   <source src="./video.mp4">
+   <source src="./video.mp4">
+   <source src="./video.mp4">
+</video>
+</body>
+
+
+</html> 
+
+
+------------------------
+
+<form>
+   <h2>Register</h2>
+   <!-- <label for="">Name:</label> -->
+   <div>
+      <label for="user">User Name:</label>
+      <input type="text" id="user" placeholder="enter user name">
+   </div>
+  <div>
+   <label for="email">Email:</label>
+   <input type="email" id="email" placeholder="enter user email">
+  </div>
+  <div>
+   <label for="">Password:</label>
+   <input type="password" placeholder="enter password">
+  </div>
+  <div>
+   <label for="">Phone:</label>
+   <input type="tel" placeholder="enter phone number">
+  </div>
+   <div>
+      <label for="">Age:</label>
+      <input type="number" placeholder="enter user age">
+   </div>
+   <div>
+      <label for="">Gender:</label>
+     <input type="radio" name="gender"><span>Male</span>
+     <input type="radio" name="gender"><span>Female</span>
+     <input type="radio" name="gender"><span>Others</span>
+   </div>
+   <div>
+      <label for="">Language:</label>
+      <input type="checkbox" name="lang"><span>English</span>
+      <input type="checkbox" name="lang"><span>Tamil</span>
+      <input type="checkbox" name="lang"><span>Kannada</span>
+      <input type="checkbox" name="lang"><span>Telugu</span>
+      <input type="checkbox" name="lang"><span>Malayalam</span>
+   </div>
+ <div>
+   <input type="submit">
+ </div>
+ </form>
+-----------------------
+
+ //**13/12/23
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="keywords" content="https://facebook.com , www.facebook.com , facebook.com , facebook , fb ">
+   <meta name="author" content="Harish">
+   <title>HTML BASICS</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+   <h1>HTML FORMS</h1>
+<!-- !iframe tag -->
+<!-- <iframe src="./main.html" frameborder="1" width="450" height="450"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MDLn5-zSQQI?si=5o4Dh9tJotsAK-i9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+ <!-- <audio src="./WhatsApp Audio 2023-07-24 at 1.10.17 PM.mpeg" controls>
+   AUDIO TAG
+ </audio> -->
+ <!-- <audio controls>
+   <source src="./WhatsApp Audio 2023-07-24 at 1.10.17 PM.mpeg">
+   <source src="./WhatsApp Audio 2023-07-24 at 1.10.17 PM.mp3">
+   <source src="./WhatsApp Audio 2023-07-24 at 1.10.17 PM.ogg">
+   <source src="./WhatsApp Audio 2023-07-24 at 1.10.17 PM.webm"> 
+ </audio> -->
+
+ <!-- <video src="./video.mp4" controls>VIDEO TAG</video> -->
+ <!-- <video controls>
+   <source src="./video.mp4">
+   <source src="./video.ogg">
+   <source  src="./video.mov">
+   <source src="./video.mpeg">
+ </video> -->
+
+ <!-- !forms -->
+ <form action="" method="" autocomplete="on">
+<div class="form-controls">
+  <label for="fName">First Name: </label>
+  <input type="text" id="fName" name="fName" placeholder="enter full name" autofocus required value="Sam" readonly >
+</div>
+<div class="form-controls">
+  <label for="lName">Last Name:</label>
+  <input type="text" name="lName" placeholder="enter last name" required value="miller" disabled>
+</div>
+<div class="form-controls">
+  <label for="mail">Email:</label>
+  <input type="email" name="mail" placeholder="enter email" required>
+</div>
+<div class="form-controls">
+  <label for="psw">Password:</label>
+  <input type="password" name="pass" placeholder="enter password" required>
+</div>
+<div class="form-controls">
+  <label for="phone">Phone No:</label>
+  <input type="tel" name="mobile" placeholder="enter phone number" required maxlength="10">
+</div>
+<div class="form-controls">
+<label for="age">Age:</label>
+<input type="number" name="age" placeholder="enter age">
+</div>
+<div class="form-controls">
+  <label for="dob">DOB:</label>
+  <input type="datetime-local" name="date" required>
+</div>
+<div class="form-controls">
+  <label for="gender">Gender:</label>
+  <input type="radio" name="gender" value="male"><span>Male</span>
+  <input type="radio" name="gender" value="female"><span>Female</span>
+  <input type="radio" name="gender" value="others"><span>Others</span>
+</div>
+<div class="form-controls">
+  <label for="lang">Languages:</label>
+  <input type="checkbox" name="lang" id="" value="English"><span>English</span>
+  <input type="checkbox" name="lang" id="" value="Tamil"><span>Tamil</span>
+  <input type="checkbox" name="lang" id="" value="Kannada"><span>Kannada</span>
+  <input type="checkbox" name="lang" id="" value="Telugu"><span>Telugu</span>
+  <input type="checkbox" name="lang" id="" value="Malayalam"><span>Malayalam</span>
+</div>
+<div class="form-controls">
+  <label for="address">Address:</label>
+  <textarea name="address" id="" cols="40" rows="5"></textarea>
+</div>
+<div class="form-controls">
+  <label for="percent">Percentage:</label>
+  <input type="range" name="range">
+</div>
+<div class="form-controls">
+  <label for="file">Upload Photo</label>
+  <input type="file" name="file">
+</div>
+<div class="btn">
+  <input type="submit" value="Register">
+  <input type="reset">
+</div>
+ </form>
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

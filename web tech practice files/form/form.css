@@ -1,0 +1,32 @@
+body{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+#gp{
+    width: 600px;
+    height: 600px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#p{
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#c{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(74, 162, 239);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #080944;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header > h1{
+    font-size: 44px;
+    color: rgb(12, 220, 123);
+    margin-bottom: 25px;
+}
+header > form > input#task_inp_value{
+    width: 500px;
+    height: 50px;
+    padding: 20px 20px;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color: #828282;
+}
+header > form > input#task_inp_value::placeholder{
+    color: #828282;
+}
+header > form >input#task_inp_btn{
+    padding: 16px 20px;
+    border-radius: 25px;
+    position: relative;
+    bottom: 2px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(12, 220, 123);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+header > form >input#task_inp_btn:hover{
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+main{
+    width: 100%;
+    height:600px;
+    background-color: rgb(8, 9, 68);
+    display: flex;
+    justify-content: center;
+}
+#contentBlock{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+#contentBlock > h2{
+    margin: 20px ;
+    font-size: 38px;
+    color: #fff;
+}
+#contentBlock > #tasks{
+    width: 800px;
+}
+#tasks > .task{
+    width: 100%;
+    display: flex;
+    margin-bottom: 5px;
+}
+.task > .content{
+    flex-basis: 70%;
+}
+.task > .content > .text{
+    width: 500px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+    font-size: 24px;
+}
+.task > .actions{
+    flex-basis: 30%;
+}
+.actions >.edit , .actions > .delete{
+padding: 10.5px 20px;
+background-color: rgb(12, 220, 123);
+color: #fff;
+font-weight: bold;
+border: none    ;
+border-radius: 25px;
+}

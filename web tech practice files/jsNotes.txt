@@ -1,0 +1,1962 @@
+
+
+//Internal js
+<script>
+    // console.log("Hello Good morning...");
+    // alert("hello")
+//   console.log(document.getElementById("btnProduct"))
+// let element=document.getElementById("btnProduct");
+// console.log(element)
+// element.onclick=function(){
+//     console.log("Product is placed")
+//     document.body.style.background="deeppink"
+// }
+ </script>
+
+
+
+ <!-- !javascript is starting here... -->
+    <!-- <h1>JavaScript</h1> -->
+<!-- <button id="btnProduct">Buy Product</button>
+<button id="btnAddtoCart">Add to Cart</button> -->
+<h1 id="demo">JS</h1>
+<!-- <script src="./app.js"></script> -->
+
+console.log("External JS")
+let a=10000;
+console.log(a);
+console.log(100+100)
+alert("helo")
+// confirm("Are you sure you want to delete")
+// let ele=document.getElementById("btnAddtoCart");
+// console.log(ele)
+// ele.innerText="CART"
+
+//  i am writing js from here
+
+//single line Comment
+/*multiline comment
+
+write here anything you want
+*/
+// consol1e.log("comment done")
+
+
+// console.clear()
+// console.error(" JS error")
+// console.info("info")
+// console.warn("warning")
+// console.log("Hello Javascript")
+// console.log(100+100)
+
+// let a=1000;
+// console.log(a)
+
+// document.write("Javascript");
+// let a="Harish";
+// document.write(a)
+document.writeln("React");
+document.write("angular");
+// let a="Harish";
+// document.write(a)
+// document.write("<h1 style='color:red;'>JavaScript</h1>"); //!dynamic html
+
+
+// window.alert("Hello")
+// alert(100+300)
+// let num=1000;
+// alert(num)
+
+
+<h1 id="demo">JS</h1>
+let ele=document.getElementById("demo");
+ele.innerText="Hello JavaScript"
+//1. var a; //!D
+// a=10; //!i
+
+// !2
+// var a=10;  //!D&I
+// var a=10; //!RI
+// a="Hi"
+// var a=10; //!RD
+// var a="Hello var"
+// console.log(a);
+
+// let b; //!D
+// b="Hi";//!I
+// let b="Hi";//!D&I
+// let b="Hi";//!RI
+// b=1000;
+// let b="Hi";//!RD
+// let b=1000;
+// console.log(b);
+
+// const a;//!D
+// a=10; //!I
+// const a=true; //!D&I
+// const a=true; //!RI
+// a=false;
+// const a=true; //!RD
+// const a=false;
+// console.log(a);
+
+// scope of variables
+// var a = 10;
+// let b = "hi";
+// const c = true;
+// console.log(a)
+// console.log(b)
+// console.log(c)
+
+// function demo() {
+//     var user = "Sam";
+//     let company = "Google";
+//     const sal = 10000;
+    // console.log(user)
+    // console.log(company)
+    // console.log(sal);
+    // console.log(a)
+    // console.log(b)
+    // console.log(c)
+// }
+// demo();
+// console.log(user)
+// console.log(company)
+// console.log(sal);
+
+// if(true){
+//     console.log(a)
+//     console.log(b)
+//     console.log(c)
+//     var n1=10;
+//     let n2=20;
+//     const n3=30;
+//     console.log(n1 , n2 ,n3)
+// }
+// console.log(n1)
+// console.log(n2)
+// console.log(n3)
+
+// !Identifiers
+// var $user_name="Shambu sir❤️";
+// console.log($user_name);
+// var 3username="Shambu sir❤️";
+// console.log(username);
+// var user3name1="Shambu sir❤️";
+// console.log(user3name1);
+// var user name="Shambu sir❤️";
+// console.log(username);
+// var username="Shambu sir❤️";
+// console.log(userName);
+
+// var usernameeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee="Shambu sir❤️";
+// console.log(usernameeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee);
+
+// var function="hello";
+// console.log(new)
+
+const a = 10;
+clg(a);
+
+
+// ~variable hoisting
+//!in the actual js file
+// console.log(a);  //!printing statement
+
+// var a=10; // ! declaration statement
+
+
+// !after code run in the browser
+// var a; //!declaration
+// console.log(a);
+// a=10; //!initializTION
+
+// console.log(b);
+// let b="Hello";
+
+// console.log(b)
+// let b;
+// b="Hello";
+
+// console.log(c);
+// // const c=true;
+// const c;
+// c=true;
+
+// ~function hoisting
+// demo();
+// function demo(){
+//     console.log("function is called")
+// }
+
+// !data types
+// let str="Brother from another Mother❤️";
+// // str="Sister from another Mother❤️❤️";
+// console.log(str[0])
+
+// let str=new String("Hello JS");
+// console.log(str)
+// let str="Hello JS";
+// str[0]="h";
+// console.log(str);
+
+
+// let str="Hello JAvascript";
+// let val=str.toLowerCase();
+// let val1=str.toLocaleLowerCase();
+// console.log(val)
+// console.log(val1)
+// let str1=str.match("h");//!null
+// let str1=str.match("H");
+// let str1=str.match(/H/)
+// let str1=str.match(/j/i)
+// let str1=str.match(/a/gi)
+// console.log(str1)
+
+// let str="Hello Javascript";
+// let str1=str.search("H");
+// let str1=str.search("h");
+// let str1=str.search("J");
+// let str1=str.search(/H/);
+// let str1=str.search(/j/i);
+// let str1=str.search(/a/g)
+// console.log(str1)
+
+
+// !Array
+// let users=["Bharath","Surya","Shambu","Tabrez"];
+// // console.log(users);
+// // console.log(users[0]);
+// // console.log(users[1]);
+// // console.log(users[2]);
+// // console.log(users[3]);
+// users.map(()=>{
+
+// })
+
+// function demo(){
+//     return arguments;
+// }
+// let x=demo(10,20,30,40,50);
+// console.log(x)
+// console.log(Array.isArray(x));
+// let y=Array.from(x);
+// console.log(y);
+// console.log(Array.isArray(y))
+
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x=arr.every((val)=>val > 3);
+// console.log(x)
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x=arr.find((findValue)=>findValue == 18);
+// let x=arr.findIndex((findValue)=>findValue == 0);
+// console.log(x)
+// let y=arr.slice(2,6);
+// console.log(y)
+// let x=arr.sort((a,b)=>a-b);
+// let x=arr.sort((a,b)=>b-a);
+// console.log(x)
+
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x=arr.splice(1,5,"Hello")
+// console.log(x)
+// console.log(arr)
+// let x=arr.some((val)=>val > 8);
+// console.log(x)
+
+
+
+// !implicit and explicit returns
+// function demo(a){
+//     return a;
+// }
+// let x=demo(10);
+// console.log(x)
+
+// let x=a=>{console.log(a);
+// console.log("Hello")
+// ;
+// }
+// let x=a=>a; //!implicit returns
+// let y=x(5,5);
+// console.log(y);
+
+// !map , foreach, filter , reduce
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x=arr.map((value,index)=>{
+// // console.log(value)
+// // console.log(index)
+// return value;
+// }).fill("Sombu").
+// console.log(x);
+
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x= arr.forEach((val, index)=>{
+// // console.log(val)
+// // console.log(index)
+// return val;
+// });
+// console.log(x)
+
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x= arr.filter((val , index)=>{
+//     // console.log(val)
+//     // console.log(index)
+//     return val > 5;
+// }).sort((a,b)=>b-a)
+// console.log(x)
+
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x=arr.reduce((accumulator,value)=>{
+//     // console.log(accumulator);
+//     // console.log(value)
+//     return accumulator*value;
+// },1)
+// console.log(x)
+
+
+
+// let str="Hello JAvascript";
+// let val=str.toLowerCase();
+// let val1=str.toLocaleLowerCase();
+// console.log(val)
+// console.log(val1)
+// let str1=str.match("h");//!null
+// let str1=str.match("H");
+// let str1=str.match(/H/)
+// let str1=str.match(/j/i)
+// let str1=str.match(/a/gi)
+// console.log(str1)
+
+// let str="Hello Javascript";
+// let str1=str.search("H");
+// let str1=str.search("h");
+// let str1=str.search("J");
+// let str1=str.search(/H/);
+// let str1=str.search(/j/i);
+// let str1=str.search(/a/g)
+// console.log(str1)
+
+
+// !Array
+// let users=["Bharath","Surya","Shambu","Tabrez"];
+// // console.log(users);
+// // console.log(users[0]);
+// // console.log(users[1]);
+// // console.log(users[2]);
+// // console.log(users[3]);
+// users.map(()=>{
+
+// })
+
+// function demo(){
+//     return arguments;
+// }
+// let x=demo(10,20,30,40,50);
+// console.log(x)
+// console.log(Array.isArray(x));
+// let y=Array.from(x);
+// console.log(y);
+// console.log(Array.isArray(y))
+
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x=arr.every((val)=>val > 3);
+// console.log(x)
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x=arr.find((findValue)=>findValue == 18);
+// let x=arr.findIndex((findValue)=>findValue == 0);
+// console.log(x)
+// let y=arr.slice(2,6);
+// console.log(y)
+// let x=arr.sort((a,b)=>a-b);
+// let x=arr.sort((a,b)=>b-a);
+// console.log(x)
+
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x=arr.splice(1,5,"Hello")
+// console.log(x)
+// console.log(arr)
+// let x=arr.some((val)=>val > 8);
+// console.log(x)
+
+
+
+// !implicit and explicit returns
+// function demo(a){
+//     return a;
+// }
+// let x=demo(10);
+// console.log(x)
+
+// let x=a=>{console.log(a);
+// console.log("Hello")
+// ;
+// }
+// let x=a=>a; //!implicit returns
+// let y=x(5,5);
+// console.log(y);
+
+// !map , foreach, filter , reduce
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x=arr.map((value,index)=>{
+// // console.log(value)
+// // console.log(index)
+// return value;
+// }).fill("Sombu").
+// console.log(x);
+
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x= arr.forEach((val, index)=>{
+// // console.log(val)
+// // console.log(index)
+// return val;
+// });
+// console.log(x)
+
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x= arr.filter((val , index)=>{
+//     // console.log(val)
+//     // console.log(index)
+//     return val > 5;
+// }).sort((a,b)=>b-a)
+// console.log(x)
+
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x=arr.reduce((accumulator,value)=>{
+//     // console.log(accumulator);
+//     // console.log(value)
+//     return accumulator*value;
+// },1)
+// console.log(x)
+
+// let arr=[6,4,8,7,9,1,3,5];
+// let arr= new Array(1,2,3,4);
+// console.log(arr)
+
+
+// !rest parameter
+// function test(){
+//     return arguments;
+// }
+// let x= test(1,2,3,4,5,6,7,8,9,10);
+// console.log(x , Array.isArray(x));
+// let modifiedArray = Array.from(x);
+// console.log(modifiedArray , Array.isArray(modifiedArray));
+// modifiedArray.map((val)=>{
+// console.log(val)
+// })
+// console.log(x)
+
+// function demo(a , b ,...c){
+// console.log(a)
+// console.log(b)
+// console.log(c)
+// }
+// let x =demo(2,3,5,4,7,8,9,0);
+// // console.log(x , Array.isArray(x))
+
+// !spread operator
+// let arr=[1,3,5,7,9];
+// let x = [...arr];
+// console.log(x)
+// console.log(arr)
+
+// let arr = [1,2,3,4,5,6,7,8];
+// let copiedArray = arr;
+// copiedArray.splice(1,3)
+// console.log(copiedArray);
+// console.log(arr);
+
+// let arr = [1,2,3,4,5,6,7,8];
+// let spreadedArray=[...arr];
+// spreadedArray.splice(1,4);
+// console.log(spreadedArray);
+// console.log(arr)
+
+// function demo(a,b,...s){
+//     console.log(a)
+//     console.log(b)
+// console.log(s)
+// }
+// demo(1,2,3,4,5);
+// let arr=[1,2,3,4,5];
+// let x= [...arr];
+// console.log(x);
+
+// !Object 
+// let obj = {
+//     user:"Shambu❤️❤️❤️❤️❤️",
+//     age:40,
+//     hobbies:["grooming" ,"mock"],
+//     address:"Jspiders / Qspiders"
+// }
+// console.log(obj.user);//!dot notation
+// console.log(obj['age']);//!bracket notation
+
+// console.log(obj['hobbies'][1])
+// console.log(obj.hobbies[1])
+
+// let obj={};
+// obj.empName="Surya";
+// obj["empId"]="TYP111";
+// obj.empSal=23456789;
+// console.log(obj)
+
+
+
+// let obj = {
+//     user:"Shambu❤️❤️❤️❤️❤️",
+//     age:40,
+//     hobbies:["grooming" ,"mock"],
+//     address:"Jspiders / Qspiders",
+//     sal:1234567,
+//     empId:"TYP222"
+// }
+// obj.age=25;
+// delete obj.address;
+// delete obj.age
+// console.log(obj)
+
+// !nested object
+// let user={
+//     userName:"Sam",
+//     age:25,
+//     company:"Google",
+//     sal:123456,
+//     designation:["developer","tester"],
+//     address:{
+//         city:"Chennai",
+//         area:{
+//            street:"Street No21",
+//            streetName:"Richie street" ,
+//            pincode:[570122 , 543211]
+//         }
+//     }
+// }
+// console.log(user.userName)
+// console.log(user.designation[0])
+// console.log(user.address.city)
+// console.log(user.address.area.street);
+// // console.log(user['address']['area']['street'])
+// console.log(user.address.area.pincode[0])
+
+// !create multiple objects using array
+// !array of objects
+let mobiles = [
+    {
+        mobileName:"OnePlus",
+        price:23456,
+        color:"gray",
+        storage:"256GB"
+    },
+    {
+        mobileName:"Samsung",
+        price:33456,
+        color:"blue",
+        storage:"128GB"
+    },
+    {
+        mobileName:"MI",
+        price:20456,
+        color:"black",
+        storage:"64GB"
+    },
+    {
+        mobileName:"Realme",
+        price:21456,
+        color:"red",
+        storage:"256GB"
+    }
+];
+console.log(mobiles)
+mobiles.map(val=>{
+    console.log(val.mobileName)
+    let label=document.querySelectorAll(".test");
+    [...label].map(mName=>{
+    mName.innerText =val.mobileName})
+})
+
+
+// let str="Hello JAvascript";
+// let val=str.toLowerCase();
+// let val1=str.toLocaleLowerCase();
+// console.log(val)
+// console.log(val1)
+// let str1=str.match("h");//!null
+// let str1=str.match("H");
+// let str1=str.match(/H/)
+// let str1=str.match(/j/i)
+// let str1=str.match(/a/gi)
+// console.log(str1)
+
+// let str="Hello Javascript";
+// let str1=str.search("H");
+// let str1=str.search("h");
+// let str1=str.search("J");
+// let str1=str.search(/H/);
+// let str1=str.search(/j/i);
+// let str1=str.search(/a/g)
+// console.log(str1)
+
+
+// !Array
+// let users=["Bharath","Surya","Shambu","Tabrez"];
+// // console.log(users);
+// // console.log(users[0]);
+// // console.log(users[1]);
+// // console.log(users[2]);
+// // console.log(users[3]);
+// users.map(()=>{
+
+// })
+
+// function demo(){
+//     return arguments;
+// }
+// let x=demo(10,20,30,40,50);
+// console.log(x)
+// console.log(Array.isArray(x));
+// let y=Array.from(x);
+// console.log(y);
+// console.log(Array.isArray(y))
+
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x=arr.every((val)=>val > 3);
+// console.log(x)
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x=arr.find((findValue)=>findValue == 18);
+// let x=arr.findIndex((findValue)=>findValue == 0);
+// console.log(x)
+// let y=arr.slice(2,6);
+// console.log(y)
+// let x=arr.sort((a,b)=>a-b);
+// let x=arr.sort((a,b)=>b-a);
+// console.log(x)
+
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x=arr.splice(1,5,"Hello")
+// console.log(x)
+// console.log(arr)
+// let x=arr.some((val)=>val > 8);
+// console.log(x)
+
+
+
+// !implicit and explicit returns
+// function demo(a){
+//     return a;
+// }
+// let x=demo(10);
+// console.log(x)
+
+// let x=a=>{console.log(a);
+// console.log("Hello")
+// ;
+// }
+// let x=a=>a; //!implicit returns
+// let y=x(5,5);
+// console.log(y);
+
+// !map , foreach, filter , reduce
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x=arr.map((value,index)=>{
+// // console.log(value)
+// // console.log(index)
+// return value;
+// }).fill("Sombu").
+// console.log(x);
+
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x= arr.forEach((val, index)=>{
+// // console.log(val)
+// // console.log(index)
+// return val;
+// });
+// console.log(x)
+
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x= arr.filter((val , index)=>{
+//     // console.log(val)
+//     // console.log(index)
+//     return val > 5;
+// }).sort((a,b)=>b-a)
+// console.log(x)
+
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let x=arr.reduce((accumulator,value)=>{
+//     // console.log(accumulator);
+//     // console.log(value)
+//     return accumulator*value;
+// },1)
+// console.log(x)
+
+// let arr=[6,4,8,7,9,1,3,5];
+// let arr= new Array(1,2,3,4);
+// console.log(arr)
+
+
+// !rest parameter
+// function test(){
+//     return arguments;
+// }
+// let x= test(1,2,3,4,5,6,7,8,9,10);
+// console.log(x , Array.isArray(x));
+// let modifiedArray = Array.from(x);
+// console.log(modifiedArray , Array.isArray(modifiedArray));
+// modifiedArray.map((val)=>{
+// console.log(val)
+// })
+// console.log(x)
+
+// function demo(a , b ,...c){
+// console.log(a)
+// console.log(b)
+// console.log(c)
+// }
+// let x =demo(2,3,5,4,7,8,9,0);
+// // console.log(x , Array.isArray(x))
+
+// !spread operator
+// let arr=[1,3,5,7,9];
+// let x = [...arr];
+// console.log(x)
+// console.log(arr)
+
+// let arr = [1,2,3,4,5,6,7,8];
+// let copiedArray = arr;
+// copiedArray.splice(1,3)
+// console.log(copiedArray);
+// console.log(arr);
+
+// let arr = [1,2,3,4,5,6,7,8];
+// let spreadedArray=[...arr];
+// spreadedArray.splice(1,4);
+// console.log(spreadedArray);
+// console.log(arr)
+
+// function demo(a,b,...s){
+//     console.log(a)
+//     console.log(b)
+// console.log(s)
+// }
+// demo(1,2,3,4,5);
+// let arr=[1,2,3,4,5];
+// let x= [...arr];
+// console.log(x);
+
+// !Object 
+// let obj = {
+//     user:"Shambu❤️❤️❤️❤️❤️",
+//     age:40,
+//     hobbies:["grooming" ,"mock"],
+//     address:"Jspiders / Qspiders"
+// }
+// console.log(obj.user);//!dot notation
+// console.log(obj['age']);//!bracket notation
+
+// console.log(obj['hobbies'][1])
+// console.log(obj.hobbies[1])
+
+// let obj={};
+// obj.empName="Surya";
+// obj["empId"]="TYP111";
+// obj.empSal=23456789;
+// console.log(obj)
+
+
+// let obj = {
+//     user:"Shambu❤️❤️❤️❤️❤️",
+//     age:40,
+//     hobbies:["grooming" ,"mock"],
+//     address:"Jspiders / Qspiders",
+//     sal:1234567,
+//     empId:"TYP222"
+// }
+// obj.age=25;
+// delete obj.address;
+// delete obj.age
+// console.log(obj)
+
+// !nested object
+// let user={
+//     userName:"Sam",
+//     age:25,
+//     company:"Google",
+//     sal:123456,
+//     designation:["developer","tester"],
+//     address:{
+//         city:"Chennai",
+//         area:{
+//            street:"Street No21",
+//            streetName:"Richie street" ,
+//            pincode:[570122 , 543211]
+//         }
+//     }
+// }
+// console.log(user.userName)
+// console.log(user.designation[0])
+// console.log(user.address.city)
+// console.log(user.address.area.street);
+// // console.log(user['address']['area']['street'])
+// console.log(user.address.area.pincode[0])
+
+// !create multiple objects using array
+// !array of objects
+// let mobiles = [
+//     {
+//         mobileName:"OnePlus",
+//         price:23456,
+//         color:"gray",
+//         storage:"256GB"
+//     },
+//     {
+//         mobileName:"Samsung",
+//         price:33456,
+//         color:"blue",
+//         storage:"128GB"
+//     },
+//     {
+//         mobileName:"MI",
+//         price:20456,
+//         color:"black",
+//         storage:"64GB"
+//     },
+//     {
+//         mobileName:"Realme",
+//         price:21456,
+//         color:"red",
+//         storage:"256GB"
+//     }
+// ];
+// console.log(mobiles)
+// mobiles.map(val=>{
+//     console.log(val.mobileName)
+//     let label=document.querySelectorAll(".test");
+//     [...label].map(mName=>{
+//     mName.innerText =val.mobileName})
+// })
+
+// let username="Sam";
+// let obj={
+//     username
+// };
+// console.log(obj)
+
+// !methods of an object
+// Object.entries()
+// Object.keys()
+// Object.values()
+// Object.seal()
+// Object.freeze()
+// Object.isSealed()
+// Object.isFrozen()
+// Object.assign()
+// Object.create();
+
+// let user={
+//     uName:"Sam",
+//     uCity:"Chennai",
+//     uAge:27,
+//     uCompany:"Facebook",
+//     uSal:234567
+// }
+// console.log(user)
+// let entry = Object.entries(user);
+// console.log(entry);
+// console.table(entry);
+// entry.map(val=>{
+//     console.log(val[1])
+// })
+// let user={
+//     uName:"Sam",
+//     uCity:"Chennai",
+//     uAge:27,
+//     uCompany:"Facebook",
+//     uSal:234567
+// };
+// let key = Object.keys(user);
+// console.log(key);
+// let value= Object.values(user);
+// console.log(value);
+
+// let user={
+//     uName:"Sam",
+//     uCity:"Chennai",
+//     uAge:27,
+//     uCompany:"Facebook",
+//     uSal:234567
+// };
+// console.log(user.uName);
+// user.uAge=30;
+// console.log(user.uAge);
+// delete user.uSal;
+// console.log(user)
+
+// Object.seal(user);
+// console.log(user)
+// console.log(user.uCompany)
+// user.uCompany="Google";
+// console.log(user.uCompany)
+// delete user.uAge;
+// user.desig="developer"
+// console.log(user)
+
+// console.log(Object.isSealed(user));
+
+// let user={
+//     uName:"Sam",
+//     uCity:"Chennai",
+//     uAge:27,
+//     uCompany:"Facebook",
+//     uSal:234567
+// };
+// Object.freeze(user);
+// user.uName="Miller";
+// delete user.uAge;
+// user.desig="developer"
+// console.log(user)
+// console.log(Object.isFrozen(user));
+
+
+// let source={
+//     a:1,
+//     b:2,
+//     c:5
+// };
+// let target={
+//     c:3,
+//     d:4
+// }
+// let x = Object.assign(target , source);
+// console.log(x)
+// let  y =Object.assign({},{user:"Sam",company:"Google"});
+// console.log(y);
+// let user={
+//         uName:"Sam",
+//         uCity:"Chennai",
+//         uAge:27,
+//     };
+// let obj = Object.create(user);
+// obj.company="Google"
+// obj.sal="10000"
+// console.log(obj);
+// console.log(obj.uName)
+
+// let obj = Object.create(null);
+// obj.name="miller"
+// obj.age="24"
+// obj.city="chennai"
+// console.log(obj);
+
+--------------------------------------------
+
+
+// !date object
+let date = new Date();
+// console.log(date);
+console.log(date.getDate())
+console.log(date.getDay());
+console.log(date.getFullYear())
+console.log(date.getHours())
+console.log(date.getMinutes())
+console.log(date.getSeconds())
+console.log(date.getMonth());
+console.log(date.getMilliseconds())
+
+
+
+---------------------------------------------
+
+
+// !Math object
+// console.log(Math);
+// console.log(Math.PI)
+// console.log(Math.random()*10);
+// console.log(Math.random()*100);
+// let n = 10.999999999;
+// console.log(Math.floor(n));
+// let n = 10.0000001;
+// let n = 10.5;
+// console.log(Math.ceil(n))
+// let n=10.4;
+// console.log(Math.round(n));//10
+
+// let n=10.5;
+// console.log(Math.round(n));//11
+// let n=10.4;
+// console.log(Math.trunc(n));
+// let n=-10;
+// console.log(Math.abs(n));
+// console.log(Math.cbrt(27));
+// console.log(Math.sqrt(9))
+// console.log(Math.pow(2 , 5));
+// console.log(Math.max(1,5,9,15,25));
+// console.log(Math.min(1,5,9,15,25));
+
+--------------------------------------------------------
+
+// !Json Object
+// let user={
+//     uName:"Sam",
+//     uAge:25
+// }
+// // console.log(user);
+// let data = JSON.stringify(user);
+// console.log(data);
+
+// let val = JSON.parse(data);
+// console.log(val)
+
+// !Call , apply , bind
+// let user= {
+//     firstName:"Sam",
+//     lastName:"Miller",
+//     company:"Google",
+//     // details:function(){
+//     //     // return(this)
+//     //     return My name is ${this.firstName} ${this.lastName} and working in ${this.company}
+//     // }
+// }
+// console.log(user.details());
+// !call method
+// function userDetails(city , pin){
+//     // console.log(this);
+//     return My name is ${this.firstName} ${this.lastName} and working in ${this.company} and i am staying in ${city} pincode is ${pin}
+// }
+// let x =userDetails.call(user,"Chennai","620001");
+// console.log(x)
+
+// !apply method
+// function userDetails(city , pin){
+//     // console.log(this);
+//     return My name is ${this.firstName} ${this.lastName} and working in ${this.company} and i am staying in ${city} pincode is ${pin}
+// }
+// let x =userDetails.apply(user,["Chennai","620001"]);
+// console.log(x)
+
+// !bind method
+let user= {
+    firstName:"Sam",
+    lastName:"Miller",
+    company:"Google",
+}
+
+function userDetails(city , pin){
+    // console.log(this);
+    return My name is ${this.firstName} ${this.lastName} and working in ${this.company} and i am staying in ${city} pincode is ${pin}
+}
+let x =userDetails.bind(user,"chennai","554321");
+console.log(x())
+
+
+
+---------------------------------------------------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1 id="demo">JavaScript DOM</h1> -->
+<!-- <p id="demo">Lorem ipsum dolor sit.</p> -->
+<!-- <div id="demo"> -->
+    <!-- <h1>Header</h1>
+    <p>paragraph                  Lorem ipsum
+         dolor sit amet.</p> -->
+<!-- </div> -->
+<!-- <div id="demo">
+
+</div> -->
+
+<!-- !getElementsbyClassname() -->
+<div class="test">Division1</div>
+<div class="test">Division2</div>
+<div class="test">Division3</div>
+<div class="test">Division4</div>
+<div class="test">Division5</div>
+
+<div name="divBlocks">DIVISION THREE</div>
+<div name="divBlocks">DIVISION THREE</div>
+<div name="divBlocks">DIVISION THREE</div>
+   <script src="./app.js"></script>
+</body>
+</html>
+
+// !DOM methods
+// !document.getElementById("");
+// console.log(document.getElementById("demo"))
+// let ele = document.getElementById("demo");
+// // console.log(ele)
+// ele.innerText = "JS Document Object Model"
+
+// let ele =document.getElementById("demo");
+// console.log(ele);
+// console.log(ele.innerText);
+// console.log(ele.innerHTML);
+// console.log(ele.textContent);
+// let ele =document.getElementById("demo");
+// // ele.innerText="DIVISION ELEMENT"
+// // ele.innerText="<h1>DIVISION ELEMENT</h1>" //!not possible
+// ele.innerHTML ="<h1>DIVISION ELEMENT</h1> <p>Paragraph</p>"
+// // ele.textContent="DIVISON ELEMENT"
+// console.log(ele);
+
+// console.log(document.body.style)
+// let demo= document.getElementById("demo");
+// demo.style.color="red";
+// demo.style.backgroundColor="yellow";
+// document.body.style.backgroundColor="aqua"
+
+// !document.getElementsByClassName("");
+// let elements = document.getElementsByClassName("test");
+// console.log(elements);
+// // elements[0].style.color="red"
+// // elements[1].style.color="red"
+// // elements[2].style.color="red"
+// // elements[3].style.color="red"
+// // elements[4].style.color="red"
+// // console.log(Array.isArray(elements))
+// [...elements].map(val=>{
+//     val.style.color="blue"
+// })
+
+// !document.getElementsByTagName("");
+// let ele= document.getElementsByTagName("div");
+// console.log(ele);
+// [...ele].map(val=>{
+//     val.style.color="crimson"
+// })
+
+//! document.getElementsByName();
+// let ele = document.getElementsByName("divBlocks");
+// console.log(ele)
+// ele.forEach(val=>{
+//     console.log(val);
+//     val.style.background="yellow"
+// })
+// [...ele].map(val=>{})	
+
+
+
+--------------------------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #demo{
+
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1 id="demo">JavaScript DOM</h1> -->
+<!-- <p id="demo">Lorem ipsum dolor sit.</p> -->
+<!-- <div id="demo"> -->
+    <!-- <h1>Header</h1>
+    <p>paragraph                  Lorem ipsum
+         dolor sit amet.</p> -->
+<!-- </div> -->
+<!-- <div id="demo">
+
+</div> -->
+
+<!-- !getElementsbyClassname() -->
+ <!-- <div class="test">Division1</div>
+<div class="test">Division2</div>
+<div class="test">Division3</div>
+<div class="test">Division4</div>
+<div class="test">Division5</div> -->
+
+<!-- <div name="divBlocks">DIVISION THREE</div>
+<div name="divBlocks">DIVISION THREE</div>
+<div name="divBlocks">DIVISION THREE</div> -->
+
+<!-- <button onclick="clickEvent()">Click</button>
+<button ondblclick="doubleclick()">OndoubleClick</button>
+<button onmouseover="mouseover()">MouseOver</button> -->
+<!-- <button id="btn1">Click</button>
+<button id="btn2">OndoubleClick</button>
+<button id="btn3">MouseOver</button>
+<img src="https://cdn.pixabay.com/photo/2023/11/01/11/16/lake-8357182_1280.jpg" id="image" alt=""> -->
+<!-- <input type="text" id="inp"> -->
+<!-- <div class="changeColor">red</div>
+<div class="changeColor">yellow</div>
+<div class="changeColor">blue</div>
+<div class="changeColor">green</div>
+<div class="changeColor">teal</div> -->
+
+
+<!-- !qr code generator -->
+<div class="container">
+    <h1>QR Generator</h1>
+    <div class="image">
+        <img src="" alt="" id="image">
+    </div>
+    <div class="form">
+        <input type="text" placeholder="enter value to generate qr" id="content">
+        <button id="btnCreateQr">Generate QR</button>
+    </div>
+</div>
+ <script src="./app.js"></script>
+ 
+
+
+</body>
+</html>
+
+// !DOM methods
+// !document.getElementById("");
+// console.log(document.getElementById("demo"))
+// let ele = document.getElementById("demo");
+// // console.log(ele)
+// ele.innerText = "JS Document Object Model"
+
+// let ele =document.getElementById("demo");
+// console.log(ele);
+// console.log(ele.innerText);
+// console.log(ele.innerHTML);
+// console.log(ele.textContent);
+// let ele =document.getElementById("demo");
+// // ele.innerText="DIVISION ELEMENT"
+// // ele.innerText="<h1>DIVISION ELEMENT</h1>" //!not possible
+// ele.innerHTML ="<h1>DIVISION ELEMENT</h1> <p>Paragraph</p>"
+// // ele.textContent="DIVISON ELEMENT"
+// console.log(ele);
+
+// console.log(document.body.style)
+// let demo= document.getElementById("demo");
+// demo.style.color="red";
+// demo.style.backgroundColor="yellow";
+// document.body.style.backgroundColor="aqua"
+
+// !document.getElementsByClassName("");
+// let elements = document.getElementsByClassName("test");
+// console.log(elements);
+// // elements[0].style.color="red"
+// // elements[1].style.color="red"
+// // elements[2].style.color="red"
+// // elements[3].style.color="red"
+// // elements[4].style.color="red"
+// // console.log(Array.isArray(elements))
+// [...elements].map(val=>{
+//     val.style.color="blue"
+// })
+
+// !document.getElementsByTagName("");
+// let ele= document.getElementsByTagName("div");
+// console.log(ele);
+// [...ele].map(val=>{
+//     val.style.color="crimson"
+// })
+
+//! document.getElementsByName();
+// let ele = document.getElementsByName("divBlocks");
+// console.log(ele)
+// ele.forEach(val=>{
+//     console.log(val);
+//     val.style.background="yellow"
+// })
+// [...ele].map(val=>{})
+
+
+// !document.querySelector("");
+// let ele = document.querySelector("#demo");
+// console.log(ele)
+// let ele1 = document.querySelector(".test");
+// console.log(ele1);
+//!document.querySelectorAll(".test");
+// let ele = document.querySelectorAll(".test");
+// console.log(ele);
+// ele.forEach(val=>{
+//     console.log(val.innerText);
+// })
+
+
+// !document.createElement()
+// let div = document.createElement("div");
+// div.setAttribute("id" , "mainEle")
+// // div.innerText="Division is created";
+// console.log(div);
+
+
+// let h1=document.createElement("h1");
+// h1.innerText="Header";
+// // console.log(h1)
+
+// let p=document.createElement("p");
+// p.innerText="Paragraph"
+
+// let image= document.createElement("img");
+// image.setAttribute("src","https://cdn.pixabay.com/photo/2023/11/01/11/16/lake-8357182_1280.jpg")
+// image.style.width="250px"
+// div.appendChild(h1);
+// div.appendChild(p);
+// div.appendChild(image)
+// document.body.append(div);
+// // image.removeAttribute("src")
+// console.log(div.getAttribute("id"));
+
+
+// !Javascript events
+// function clickEvent(){
+// console.log("button is clicked")
+// }
+
+// function doubleclick(){
+//     console.log("button is double clicked")
+// }
+// function mouseover(){
+//     console.log("Button executed on hovering of cursor")
+// }
+
+let btn1 = document.getElementById("btn1");
+// btn1.onclick=function(){
+//     console.log("button is clicking...")
+// }
+
+// !important
+// btn1.addEventListener("click",()=>{
+//     console.log("clicked")
+// })
+// let image=document.getElementById("image");
+// btn1.addEventListener("mouseover",()=>{
+//   image.style.width="250px"
+//   image.style.height="250px"
+//   image.style.borderRadius="50%"
+// })
+// btn1.addEventListener("mouseleave",()=>{
+//     image.style.width="250px"
+//     image.style.height="250px"
+//     image.style.borderRadius="0%"
+// })
+
+// let input=document.getElementById("inp");
+// console.log(input)
+// input.addEventListener("change",e=>{
+//    console.log(input.value);
+// })
+
+// let div1 = document.getElementById("div1");
+// div1.addEventListener("mouseover",()=>{
+//     document.body.style.background="red"
+// })
+// let div2 = document.getElementById("div2");
+// div2.addEventListener("mouseover",()=>{
+//     document.body.style.background="yellow"
+// })
+// let div3 = document.getElementById("div3");
+// div3.addEventListener("mouseover",()=>{
+//     document.body.style.background="blue"
+// })
+// let div4 = document.getElementById("div4");
+// div4.addEventListener("mouseover",()=>{
+//     document.body.style.background="green"
+// })
+// let div5 = document.getElementById("div5");
+// div5.addEventListener("mouseover",()=>{
+//     document.body.style.background="teal"
+// })
+
+// let changeColor=document.querySelectorAll(".changeColor");
+// [...changeColor].map(color=>{
+//    color.addEventListener("mouseover",()=>{
+//     document.body.style.background=color.innerText;
+//    })
+// })
+
+// !QR generator
+let image = document.getElementById("image");
+let content=document.getElementById("content");
+let btn=document.getElementById("btnCreateQr");
+// https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example 
+btn.addEventListener("click",()=>{
+if(content.value == '') return;
+let linkQR = 'https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=';
+image.src=linkQR +content.value;
+})
+
+
+
+--------------------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 24px;
+            font-weight: bold;
+            color: #000000;
+        }
+        #gp{
+            width: 600px;
+            height: 600px;
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #p{
+            width: 400px;
+            height: 400px;
+            background-color: blueviolet;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #c{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(74, 162, 239);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+ <!-- <form action="" id="form">
+    <input type="text" placeholder="enter email address" id="inpVal1"><br>
+    <input type="password" placeholder="enter password" id="inpVal2"><br>
+    <input type="submit" value="Login">
+ </form> -->
+ <!-- <section id="gp">
+    Grand Parent
+    <article id="p">
+        Parent
+        <div id="c">
+            Child
+        </div>
+    </article>
+ </section> -->
+ <!-- <section id="section">
+    <div id="div1">DIV1</div>
+    <div id="div2">DIV2</div>
+    <div id="div3">DIV3</div>
+ </section> -->
+<form action="" id="form">
+    <input type="password" name=""
+     id="psw">
+    <input type="checkbox" name="" 
+    id="check">
+    <span id="show">show password
+        
+    </span>
+</form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="./app.js"></script>
+ 
+
+
+</body>
+</html>
+
+// let form =document.querySelector("#form");
+// let inpVal1 =document.querySelector("#inpVal1");
+// let inpVal2 =document.querySelector("#inpVal2");
+// form.addEventListener("submit",(event)=>{
+//     event.preventDefault();
+//     console.log("form submitted")
+//     let inp1= inpVal1.value;
+//     let inp2=inpVal2.value;
+//     console.log({inp1 , inp2})
+// })
+
+// !event delegation
+// let gp=document.getElementById("gp");
+// let p=document.getElementById("p");
+// let c=document.getElementById("c");
+
+// document.body.addEventListener("click",e=>{
+//     console.log("Body clicked")
+// })
+// gp.addEventListener("click",(event)=>{
+// // console.log(event.target)
+// console.log("Grand Parent clicked")
+// event.stopPropagation();
+// })
+// p.addEventListener("click",(event)=>{
+//     // console.log(event.target)
+//     console.log("Parent Clicked");
+//     event.stopPropagation();
+//     })
+
+//     c.addEventListener("click",(event)=>{
+//         // console.log(event.target)
+//         console.log("Child clicked")
+//         event.stopPropagation();
+//         })
+
+// let div1=document.getElementById("div1");
+// let div2=document.getElementById("div2");
+// let div3=document.getElementById("div3");
+// div1.addEventListener("click",e=>{
+//     console.log(e.target.innerText)
+// })
+// div2.addEventListener("click",e=>{
+//     console.log(e.target.innerText)
+// })
+// div3.addEventListener("click",e=>{
+//     console.log(e.target.innerText)
+// })
+// let section =document.querySelector("#section");
+// section.addEventListener("click",e=>{
+//     console.log(e.target.innerText)
+// })
+
+
+// !show password
+let inp =document.querySelector("#psw");
+let check =document.querySelector("#check");
+let show =document.querySelector("#show");
+check.addEventListener("click",e=>{
+    console.log(e.target.checked)
+    if(e.target.checked === true){
+        inp.setAttribute("type","text");
+        show.innerText="hide password"
+    }else{
+        inp.setAttribute("type","password");
+        show.innerText="show password" 
+    }
+})
+
+
+-----------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        body {
+            font-size: 24px;
+            font-weight: bold;
+            color: #000000;
+        }
+
+        #gp {
+            width: 600px;
+            height: 600px;
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #p {
+            width: 400px;
+            height: 400px;
+            background-color: blueviolet;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #c {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(74, 162, 239);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- <form action="" id="form">
+    <input type="text" placeholder="enter email address" id="inpVal1"><br>
+    <input type="password" placeholder="enter password" id="inpVal2"><br>
+    <input type="submit" value="Login">
+ </form> -->
+    <!-- <section id="gp">
+    Grand Parent
+    <article id="p">
+        Parent
+        <div id="c">
+            Child
+        </div>
+    </article>
+ </section> -->
+    <!-- <section id="section">
+    <div id="div1">DIV1</div>
+    <div id="div2">DIV2</div>
+    <div id="div3">DIV3</div>
+ </section> -->
+    <!-- <form action="" id="form">
+    <input type="password" name=""
+     id="psw">
+    <input type="checkbox" name=""
+    id="check">
+    <span id="show">show password
+
+    </span>
+</form> -->
+
+    <!-- </div> -->
+
+<!-- <section id="colorGenerate">
+    <article>
+        <div class="container">
+            <h2 id="hex">
+                #D724F0
+            </h2>
+            <button id="btn">Generate Color</button>
+        </div>
+    </article>
+</section> -->
+
+<!-- !local and session storages -->
+ <form action="" id="form">
+    <input type="email" placeholder="enter email address" id="inpVal1"><br>
+    <input type="password" placeholder="enter password" id="inpVal2"><br>
+    <input type="submit" value="Login">
+ </form>
+
+
+
+
+
+
+
+
+    <script src="./app.js"></script>
+
+
+
+</body>
+
+</html>
+
+// let form =document.querySelector("#form");
+// let inpVal1 =document.querySelector("#inpVal1");
+// let inpVal2 =document.querySelector("#inpVal2");
+// form.addEventListener("submit",(event)=>{
+//     event.preventDefault();
+//     console.log("form submitted")
+//     let inp1= inpVal1.value;
+//     let inp2=inpVal2.value;
+//     console.log({inp1 , inp2})
+// })
+
+// !event delegation
+// let gp=document.getElementById("gp");
+// let p=document.getElementById("p");
+// let c=document.getElementById("c");
+
+// document.body.addEventListener("click",e=>{
+//     console.log("Body clicked")
+// })
+// gp.addEventListener("click",(event)=>{
+// // console.log(event.target)
+// console.log("Grand Parent clicked")
+// event.stopPropagation();
+// })
+// p.addEventListener("click",(event)=>{
+//     // console.log(event.target)
+//     console.log("Parent Clicked");
+//     event.stopPropagation();
+//     })
+
+//     c.addEventListener("click",(event)=>{
+//         // console.log(event.target)
+//         console.log("Child clicked")
+//         event.stopPropagation();
+//         })
+
+// let div1=document.getElementById("div1");
+// let div2=document.getElementById("div2");
+// let div3=document.getElementById("div3");
+// div1.addEventListener("click",e=>{
+//     console.log(e.target.innerText)
+// })
+// div2.addEventListener("click",e=>{
+//     console.log(e.target.innerText)
+// })
+// div3.addEventListener("click",e=>{
+//     console.log(e.target.innerText)
+// })
+// let section =document.querySelector("#section");
+// section.addEventListener("click",e=>{
+//     console.log(e.target.innerText)
+// })
+
+
+// !show password
+// let inp =document.querySelector("#psw");
+// let check =document.querySelector("#check");
+// let show =document.querySelector("#show");
+// check.addEventListener("click",e=>{
+//     console.log(e.target.checked)
+//     if(e.target.checked === true){
+//         inp.setAttribute("type","text");
+//         show.innerText="hide password"
+//     }else{
+//         inp.setAttribute("type","password");
+//         show.innerText="show password"
+//     }
+// })
+
+// !generate random color codes
+// let hex=document.getElementById("hex");
+// let btn=document.getElementById("btn");
+// let colorGenerate= document.getElementById("colorGenerate");
+// btn.addEventListener("click",()=>{
+//     let colorCodes= "0123456789ABCDEF";
+//     let color="#";
+//     for(let i = 0 ; i < 6 ; i++){
+//         // console.log(i);
+//         color = color + colorCodes[Math.floor(Math.random()*16)];
+//         console.log(color)
+//     }
+//     colorGenerate.style.background=color;
+//     hex.innerText=color;
+// })
+
+// !Localstorage
+// console.log(localStorage)
+// // localStorage.clear();
+// localStorage.setItem("Username","Bharath");
+// let company ="QSP";
+// localStorage.setItem("company",company)
+// localStorage.setItem("desig","Trainer")
+// localStorage.setItem("empId","QSP123")
+
+// // console.log(Username)
+// // let uName = localStorage.getItem("Username");
+// // console.log(uName)
+// // let comp=localStorage.getItem("company");
+// // console.log(comp)
+// // localStorage.removeItem("empId")
+
+
+// // console.log(localStorage.key(2))
+// localStorage.clear();
+
+// console.log(sessionStorage)
+// sessionStorage.setItem("Username","Bharath");
+// let company ="QSP";
+// sessionStorage.setItem("company",company)
+// sessionStorage.setItem("desig","Trainer")
+// sessionStorage.setItem("empId","QSP123")
+
+// let x = sessionStorage.getItem("Username");
+// console.log(x)
+
+// sessionStorage.removeItem("empId");
+
+// sessionStorage.clear()
+
+let form =document.querySelector("form");
+let inp1=document.querySelector("#inpVal1");
+let inp2=document.querySelector("#inpVal2");
+form.addEventListener("submit",(e)=>{
+e.preventDefault();
+let val1=inp1.value;
+let val2=inp2.value;
+// console.log(val1, val2)
+// localStorage.setItem("val1",val1);
+// localStorage.setItem("val2",val2);
+let userData={
+    email:val1,
+    pass:val2
+}
+// console.log(userData)
+let data=JSON.stringify(userData);
+// console.log(data)
+// localStorage.setItem("userData",data)
+sessionStorage.setItem("userData",data)
+
+})
+
+
+// let val=localStorage.getItem("userData");
+// let x = JSON.parse(val);
+// console.log(x)
+
+let val=sessionStorage.getItem("userData");
+let x = JSON.parse(val);
+console.log(x)
+
+
+-----------------------
+
+
+/ console.log(10)
+// console.log(20)
+// // setTimeout(()=>{
+// //     console.lOg(30)
+// // },5000)
+// setInterval(()=>{
+//     console.lOg(30)
+// },2000)
+// console.log(40)
+// console.log(50)
+
+
+//!AJAX -- ASYNCHRONISED JAVASCRIPT AND XML
+// function fetchData(){
+//     let data = new XMLHttpRequest();
+//     // console.log(data)
+//     data.open("GET","https://jsonplaceholder.typicode.com/todos")
+//     data.onloadend=function(){
+//         let res=JSON.parse(data.response);
+//         console.log(res)
+//         let store=document.querySelector("#store");
+//         [...res].map(content=>{
+//             console.log(content.title)
+//             store.innerHTML +=`
+//             <h1>${content.title}</h1>
+//             `
+//         })
+//     }
+//     data.send();
+// }
+// fetchData();
+
+// function fetchData(){
+//     let data = new XMLHttpRequest();
+//     // console.log(data)
+//     data.open("GET","https://api.github.com/users")
+//     data.onloadend=function(){
+//         let res=JSON.parse(data.response);
+//         console.log(res)
+//         let store=document.querySelector("#store");
+//         [...res].map(user=>{
+//             store.innerHTML +=`
+//             <img id='demo' src=${user.avatar_url}/>
+//             `
+//         })
+//     }
+//     data.send();
+// }
+// fetchData();
+
+// !Promise
+
+// let p = new Promise((resolve , reject)=>{});
+// console.log(p)
+
+// let p1 = new Promise((resolve , reject)=>{
+//    setTimeout(()=>{
+//     resolve(" p1 resolve successfully")
+//    },5000)
+// });
+// // console.log(p1)
+
+// let p2 = new Promise((resolve , reject)=>{
+//     setTimeout(()=>{
+//         resolve(" p2 resolve successfully")
+//        },2000)
+// });
+// // console.log(p2)
+// let p3 = new Promise((resolve , reject)=>{
+//     setTimeout(()=>{
+//         resolve(" p3 resolve successfully")
+//        },1000)
+// });
+
+// let p4 = new Promise((resolve , reject)=>{
+//     setTimeout(()=>{
+//         reject(" p4 reject successfully")
+//        })
+// });
+// Promise.all([p1,p2,p3,p4])
+// .then(data=>console.log(data))
+// .catch(error=>console.log(error))
+// .finally(final=>console.log("finally"))
+// Promise.any([p1,p2,p3,p4])
+// .then(data=>console.log(data))
+// .catch(error=>console.log(error))
+// .finally(final=>console.log("finally"))
+
+// Promise.race([p1,p2,p3,p4])
+// .then(data=>console.log(data))
+// .catch(error=>console.log(error))
+// .finally(final=>console.log("finally"))
+
+// Promise.allSettled([p1,p2,p3,p4])
+// .then(data=>console.log(data))
+// .catch(error=>console.log(error))
+// .finally(final=>console.log("finally"))
+
+// function fetchUsers(){
+//     let res=window.fetch("https://jsonplaceholder.typicode.com/todos");
+//     res
+//     .then(response=>response.json())
+//     .then(data=>{
+//         console.log(data[0].title)
+//     })
+//     .catch(error=>console.log(error))
+// }
+// fetchUsers();
+
+// function fetchUsers(){
+//     let res=window.fetch("https://api.github.com/users");
+//     res
+//     .then(response=>response.json())
+//     .then(data=>{
+//         let store=document.querySelector("#store");
+//                 [...data].map(user=>{
+//                     store.innerHTML +=`
+//                     <img id='demo' src=${user.avatar_url}/>
+//                     `
+//                 })
+//     })
+//     .catch(error=>console.log(error))
+// }
+// fetchUsers();
+
+
+// !async and await
+
+async function fetchUsers(){
+    let res=await window.fetch("https://api.github.com/users");
+    let data=await res.json();
+    // console.log(data)
+    let store=document.querySelector("#store");
+                    [...data].map(user=>{
+                        store.innerHTML +=`
+                        <img id='demo' src=${user.avatar_url}/>
+                        `
+                    })
+}
+fetchUsers();

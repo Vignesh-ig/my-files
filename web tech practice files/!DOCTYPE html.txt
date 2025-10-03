@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 24px;
+            font-weight: bold;
+            color: #000000;
+        }
+        #gp{
+            width: 600px;
+            height: 600px;
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #p{
+            width: 400px;
+            height: 400px;
+            background-color: blueviolet;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #c{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(74, 162, 239);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+ <!-- <form action="" id="form">
+    <input type="text" placeholder="enter email address" id="inpVal1"><br>
+    <input type="password" placeholder="enter password" id="inpVal2"><br>
+    <input type="submit" value="Login">
+ </form> -->
+ <!-- <section id="gp">
+    Grand Parent
+    <article id="p">
+        Parent
+        <div id="c">
+            Child
+        </div>
+    </article>
+ </section> -->
+ <!-- <section id="section">
+    <div id="div1">DIV1</div>
+    <div id="div2">DIV2</div>
+    <div id="div3">DIV3</div>
+ </section> -->
+<form action="" id="form">
+    <input type="password" name=""
+     id="psw">
+    <input type="checkbox" name="" 
+    id="check">
+    <span id="show">show password
+        
+    </span>
+</form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="./app.js"></script>
+ 
+
+
+</body>
+</html>
+
+// let form =document.querySelector("#form");
+// let inpVal1 =document.querySelector("#inpVal1");
+// let inpVal2 =document.querySelector("#inpVal2");
+// form.addEventListener("submit",(event)=>{
+//     event.preventDefault();
+//     console.log("form submitted")
+//     let inp1= inpVal1.value;
+//     let inp2=inpVal2.value;
+//     console.log({inp1 , inp2})
+// })
+
+// !event delegation
+// let gp=document.getElementById("gp");
+// let p=document.getElementById("p");
+// let c=document.getElementById("c");
+
+// document.body.addEventListener("click",e=>{
+//     console.log("Body clicked")
+// })
+// gp.addEventListener("click",(event)=>{
+// // console.log(event.target)
+// console.log("Grand Parent clicked")
+// event.stopPropagation();
+// })
+// p.addEventListener("click",(event)=>{
+//     // console.log(event.target)
+//     console.log("Parent Clicked");
+//     event.stopPropagation();
+//     })
+
+//     c.addEventListener("click",(event)=>{
+//         // console.log(event.target)
+//         console.log("Child clicked")
+//         event.stopPropagation();
+//         })
+
+// let div1=document.getElementById("div1");
+// let div2=document.getElementById("div2");
+// let div3=document.getElementById("div3");
+// div1.addEventListener("click",e=>{
+//     console.log(e.target.innerText)
+// })
+// div2.addEventListener("click",e=>{
+//     console.log(e.target.innerText)
+// })
+// div3.addEventListener("click",e=>{
+//     console.log(e.target.innerText)
+// })
+// let section =document.querySelector("#section");
+// section.addEventListener("click",e=>{
+//     console.log(e.target.innerText)
+// })
+
+
+// !show password
+let inp =document.querySelector("#psw");
+let check =document.querySelector("#check");
+let show =document.querySelector("#show");
+check.addEventListener("click",e=>{
+    console.log(e.target.checked)
+    if(e.target.checked === true){
+        inp.setAttribute("type","text");
+        show.innerText="hide password"
+    }else{
+        inp.setAttribute("type","password");
+        show.innerText="show password" 
+    }
+})

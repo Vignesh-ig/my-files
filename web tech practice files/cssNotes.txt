@@ -1,0 +1,2501 @@
+DAY 1 - 30 DEC 2024
+=====================
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="./index.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet"> -->
+</head>
+
+<body>
+    <!-- <h1>CSS Background property</h1> -->
+    <!-- <p>lorem5000</p> -->
+    <!-- <div id="demo">
+        hello division
+    </div> -->
+    <h1>CSS Font property</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta debitis tempore autem, veritatis inventore vel
+        blanditiis alias cupiditate harum in?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae molestias est nulla maiores. Molestias neque
+        fugit reprehenderit optio, unde ex impedit, ea ducimus magni aut placeat est exercitationem laudantium illo
+        eaque odit? Sint necessitatibus quam iure itaque, eius modi atque ex eligendi? Corrupti consequatur vitae ut
+        optio distinctio a quis.
+    </p>
+</body>
+
+</html>
+
+-------
+
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Sevillana&display=swap'); */
+/*! background property */
+
+/* body{
+    width: 100%;
+    height: 100vh; */
+    /* background-color: darkmagenta; */
+    /* background-color: #25ab25; */
+    /* background-image: url("https://cdn.pixabay.com/photo/2023/09/14/15/54/bird-8253245_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center center;
+    background-attachment: fixed;
+    color: #fff; */
+/* } */
+/* #demo{
+    width: 500px;
+    height: 250px;
+    border: 10px dotted red; */
+    /* background-color: blue; */
+    /* padding: 50px; */
+    /* background-clip: border-box; */
+    /* background-clip: padding-box; */
+    /* background-clip: content-box; */
+/* background-image: url("https://cdn.pixabay.com/photo/2023/09/28/17/10/cat-8282097_1280.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 50px; */
+/* background-origin: border-box; */
+/* background-origin: padding-box; */
+/* background-origin: content-box; */
+/* } */
+
+/* body{
+    width: 100%;
+    height: 100vh; */
+    /* background-color: red ,yellow; */
+/* background-image: linear-gradient(direction , color1 ,color2 ,....); */
+/* background-image: linear-gradient(to bottom left,red ,yellow,green,blue,white,pink,violet,coral); */
+/* background-image: radial-gradient(circle,red,yellow,green,pink,blueviolet,coral,#fff,gray,aqua); */
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.81) , rgba(0, 0, 0, 0.235) ,rgba(0, 0, 0, 0.832)),url("./netflix.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center; */
+/* background-image: linear-gradient(to right ,black ,black,rgba(0, 0, 0, 0.871) ,transparent,transparent),url("./netflix.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+color: #fff;
+} */
+
+/* !font properties */
+/* !font-size , font-weight ,font-family , font-style,font-variant */
+/* h1{
+    font-weight: lighter;
+}
+p{
+    font-size: 26px; */
+    /* font-weight: 100; */
+    /* font-family: monospace; */
+    /* font-family: "Rubik Doodle Shadow";   */
+    /* font-family: "Sevillana"; */
+    /* font-style: italic; */
+    /* font-style: oblique; */
+    /* font-variant: small-caps;
+} */
+
+/* !text properties */
+/* !text-align , text-decoration , text-transform , text-indent,text-shadow , text-overflow,letter-spacing*/
+/*! word spacing , word break*/
+/* p{ */
+    /* text-align: justify; */
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    /* text-transform: capitalize; */
+    /* text-indent: 50px; */
+    /* text-shadow: 2px 2px 2px blue; */
+    /* word-spacing: 10px; */
+    /* letter-spacing: 4px;
+    line-height: 30px;
+}
+h1{
+    text-shadow: 2px 2px 5px red;
+    word-spacing: 10px;
+    letter-spacing: 15px;
+} */
+
+p{
+    width: 300px;
+    height: 20px;
+    border: 2px solid red;
+    /* white-space: wrap; */
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+
+
+=====================
+DAY 2 - 31 DEC 2024
+=====================
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="./index.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet"> -->
+</head>
+
+<body>
+    <!-- <h1>CSS Border Property</h1> -->
+
+    <!-- <div>
+    Hello
+   </div> -->
+    <!-- <table>
+    <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+   </table> -->
+    <!-- <div>
+
+   </div> -->
+
+    <!-- !float property -->
+    <!-- <div class="parent">
+        <img src="https://cdn.pixabay.com/photo/2023/10/24/16/19/evening-sky-8338559_1280.jpg" alt="" width="300" height="350">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni doloremque in nesciunt, repellendus,
+            provident ullam quae accusantium, voluptatum hic enim dolorem! Beatae voluptatum quisquam magnam eligendi
+            tempora dignissimos, libero inventore suscipit consectetur eum maxime maiores enim dolores vero eaque
+            doloribus similique dolorum itaque nobis molestias nisi accusamus. Nihil, facilis deserunt libero dolor
+            veniam accusantium voluptatibus culpa, nobis dicta quas pariatur officia delectus neque quis. Hic, atque
+            vero voluptates a libero dolores fuga maxime tempore et quis ex est sint velit corrupti? Quam inventore,
+            provident id error minima doloremque quibusdam voluptas saepe laboriosam omnis est fuga fugiat beatae vero
+            voluptatem autem rem, doloribus deleniti voluptatibus. Distinctio odit rem, magni enim nesciunt
+            exercitationem facere, illum amet at error repudiandae aperiam! Corporis doloremque harum magnam et nulla
+            quod. Ipsum odit possimus voluptas ratione est in itaque, culpa labore veritatis eligendi asperiores
+            consequuntur atque harum voluptatibus id, voluptatem autem tenetur eaque quisquam. Provident, rem beatae
+            consequuntur molestias quaerat eaque minima rerum corrupti qui veritatis, reprehenderit cupiditate incidunt
+            repellendus officiis nisi, modi eius atque? Consequuntur asperiores esse omnis vero aut quos dolore nemo
+            unde, in natus error, sapiente ipsa possimus explicabo reiciendis facere qui aperiam, quaerat sit. Qui
+            nostrum officia minus earum illo? Molestiae excepturi sit fugit quasi ea necessitatibus. Nostrum laboriosam
+            eius quis ab officia similique, sint autem quaerat esse. Vero commodi beatae sint facere! Fugiat, maiores
+            tempora! Alias, nisi numquam dignissimos mollitia repellendus, quos suscipit perferendis eaque quod quo
+            voluptatum cupiditate fugit. Modi nemo animi porro iste quae incidunt aliquam error laudantium beatae. In
+            quae exercitationem rem cupiditate, nam recusandae vero necessitatibus nostrum ad ipsa sint unde suscipit
+            quasi possimus cumque dignissimos, numquam, neque praesentium hic similique voluptatum laudantium cum
+            consectetur corrupti? Doloremque numquam odio cupiditate architecto. Suscipit sed repellendus maiores autem
+            magni eos facere mollitia fuga soluta laudantium quam quas, itaque odit?</p>
+    </div> -->
+    <!-- !overflow property -->
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis inventore porro impedit placeat
+            molestias dicta est adipisci qui reprehenderit? Architecto laudantium, in quia tempore magni earum facerelabore repellendus fugiat itaque fugit vel alias placeat id minima suscipit consectetur unde facilis nostrum
+            quidem harum deserunt! Reprehenderit, molestiae delectus dolore a atque ea voluptatibus perferendis optio
+            laboriosam debitis maiores nobis veniam? Cum repudiandae minus, quas molestias, explicabo facere voluptatum
+            ad itaque sed tempora omnis recusandae, corporis voluptas dicta labore magnam possimus necessitatibus
+            eligendi rem eius aspernatur optio officiis laudantium. Et deserunt iste aperiam eaque sit repellat possimus
+            nihil quas quod? Quas doloremque iure tenetur quos odio dolor facere, harum ea quis blanditiis asperiores ut
+            officiis libero, aut molestiae eius placeat eaque error impedit exercitationem delectus fugiat recusandae ab
+            voluptatibus. Voluptate at nostrum enim magnam incidunt nam perferendis voluptatem possimus labore amet
+            soluta, voluptas deleniti sunt dignissimos quam accusantium omnis minus vitae necessitatibus veniam neque!
+            Quis ipsum ea nesciunt pariatur perspiciatis atque earum laudantium, quisquam repellat eligendi suscipit
+            error dolor nulla maiores magni vel distinctio. Veniam error voluptates soluta cupiditate dignissimos
+            accusantium corporis debitis labore velit consequuntur magni unde deleniti mollitia exercitationem
+            temporibus, iste ad sunt quaerat officia quae sit eius nisi. Facere quisquam sequi corrupti nihil itaque
+            consequatur, nesciunt asperiores blanditiis quibusdam ipsam delectus natus voluptates aliquam dignissimos
+            doloribus fuga reprehenderit. Animi excepturi quod debitis fugiat vel et commodi ducimus, accusamus
+            obcaecati distinctio. Totam hic qui impedit aspernatur rem, incidunt quam itaque maxime deserunt dolor ut,
+            nihil iste dignissimos asperiores aut. Non illo laborum perferendis architecto in? Sequi accusantium fugit
+            adipisci eius, libero autem natus maiores, voluptas quidem sapiente aliquam dolorem. Architecto velit cumque
+            saepe voluptas obcaecati fugit quisquam quis magnam facere nam impedit earum aut hic, accusantium adipisci
+            possimus mollitia nostrum non quo? Assumenda nulla dolorum eos a sunt maxime!
+        </p>
+    </div>
+</body>
+
+</html>
+
+------------
+
+
+/* !border-width , border-style , border-color */
+/* div{
+    width: 250px;
+    height: 250px; */
+    /* background-color: aqua; */
+    /* border-width: 2px;
+    border-color: red;
+    border-style: solid; */
+ /* border: 12px dashed blue;    */
+
+ /* !individual property */
+ /* border-top-width: 4px;
+ border-top-color: red;
+ border-top-style: solid; */
+ /* border-top: 4px solid red; */
+ /* border-right-width: 8px;
+ border-right-color: rgb(0, 0, 255);
+ border-right-style: dashed; */
+ /* border-right: 8px dashed green; */
+ /* border-bottom-width: 12px;
+ border-bottom-color: green;
+ border-bottom-style: dotted; */
+ /* border-bottom: 12px dotted coral; */
+ /* border-left-width: 16px;
+ border-left-color: yellow;
+ border-left-style: double; */
+ /* border-left: 16px double yellow; */
+
+
+ /* !border radius */
+ /* border: 6px solid red; */
+ /* border-radius: 50%; */
+ /* border-top-left-radius: 20px;
+ border-top-right-radius: 40px;
+ border-bottom-right-radius: 100px;
+ border-bottom-left-radius: 120px; */
+ /* border-radius: 20px 40px 80px 120px; */
+ /* border-radius: 20px 40px 80px; */
+ /* border-radius:  40px 80px; */
+ /* border-radius:80px; */
+/* } */
+/* table , th , td{
+    border: 2px solid; */
+    /* border-collapse: separate;  ! by default*/
+    /* border-collapse: collapse; */
+    /* border-spacing: 10px; */
+    /* padding: 20px; */
+/* 
+} */
+
+/* div{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    /* border: 4px solid red; */
+    /* border: 8px solid blue;
+border-radius: 50%;  */
+    /* !outline property */
+    /* !outline-width , outline-color , outline-style */
+ /* outline-width: 12px;
+ outline-color: red;
+ outline-style: dashed;
+ outline-offset: 5px;
+} */
+
+/* .parent{
+    width: 100%;
+    background-color: aqua;
+}
+.parent > p{
+    font-size: 18px;
+}
+.parent > img{ */
+    /* float: left; */
+    /* float: right;
+} */
+
+/* !overflow */
+div{
+    width: 250px;
+    height: 350px;
+    border: 3px solid red;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
+
+
+===================
+DAY 3 - 2 JAN 2024
+===================
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="./index.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet"> -->
+</head>
+
+<body>
+    <!-- !float -->
+    <!-- <div class="parentContainer">
+        <img width="300" height="400" src="https://cdn.pixabay.com/photo/2023/10/24/16/19/evening-sky-8338559_1280.jpg" alt="">     
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae sit minima voluptatem enim minus. Omnis iste
+            eius explicabo repellendus fugit asperiores, voluptas quod quos blanditiis dolorum possimus aut aspernatur
+            consectetur maxime odit voluptatem quam amet expedita labore tenetur id! Nemo quas, minima consectetur,
+            laudantium ipsam tenetur incidunt hic alias ab sint accusamus eius illo suscipit dolor distinctio? Soluta
+            repudiandae illum eligendi! Recusandae perspiciatis libero accusamus laudantium saepe alias consequatur
+            labore atque quia eligendi perferendis reprehenderit ipsam ratione esse consequuntur quibusdam nulla aliquid
+            ducimus ullam, maxime nisi? Fugiat at beatae officiis sunt optio aperiam magni eius pariatur, excepturi,
+            dolorem, quibusdam id!</p>
+           
+    </div> -->
+    <!-- 
+    <div>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam et dignissimos autem laudantium eos. Error
+        soluta similique veniam accusamus quidem, consectetur voluptates a! Eum ex ratione corrupti asperiores facere
+        veritatis tempore natus! Dolore officia alias laborum minima est molestiae eum perspiciatis, ad ipsum aspernatur
+        aperiam saepe quos qui at libero placeat. Dolore, provident? Recusandae, excepturi? Repellendus placeat quaerat
+        quasi explicabo quas amet corporis deserunt expedita molestias exercitationem voluptas rerum tempore vel,
+        soluta, hic a doloribus voluptates ea vitae et esse doloremque laboriosam impedit! Dicta officia facilis quod
+        voluptas, cumque optio fugiat atque itaque laboriosam perferendis totam quas nihil illo velit.
+    </div> -->
+
+    <!-- !object-fit property -->
+    <!-- <div class="picContainer">
+        <img src="https://cdn.pixabay.com/photo/2023/07/29/06/28/bird-8156308_1280.jpg" alt="eagle">
+    </div> -->
+
+    <!-- <div id="parentContainer">
+        <div class="test">div1</div>
+        <div class="test">div2</div>
+        <div class="test">div3</div>
+    </div> -->
+    <h1>Header</h1>
+<marquee behavior="" direction="">Position : Sticky</marquee>
+    <div>
+        HELLO FIXED
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, natus nulla, similique quas minima accusamus
+        repellendus aliquam vel nisi earum modi corrupti voluptas! Hic nulla totam alias quae neque sunt quis ducimus
+        non assumenda officiis animi doloremque, nostrum autem pariatur, dolorum id voluptatem exercitationem rerum
+        architecto quod? Quisquam soluta optio ad. Animi amet eligendi minus, distinctio eius magni nulla ratione?
+        Incidunt corrupti temporibus ex nisi accusamus aut consequatur aliquam consectetur sunt eveniet dolorem
+        accusantium, voluptate soluta eius fuga obcaecati iusto consequuntur optio adipisci quaerat sed. Impedit maxime
+        veritatis dolor quasi harum molestias illum repellendus voluptate a autem, possimus aliquam molestiae
+        necessitatibus ipsum dignissimos nemo asperiores architecto. Corrupti quisquam est, architecto odit harum
+        perferendis pariatur maxime veniam rem dignissimos vel quaerat aut asperiores recusandae, a neque! Natus,
+        distinctio corrupti. Laborum exercitationem at, nulla quam accusantium voluptatibus fuga nihil deleniti minusdolor 
+	tempore debitis officiis rem, assumenda iure illo vel, reiciendis vitae temporibus! Inventore sed eius
+        expedita aliquid, commodi tempora accusamus in a, neque accusantium tenetur, odit omnis. Consequuntur eaque sint
+        laborum debitis vel consequatur, provident amet, necessitatibus doloremque laboriosam omnis saepe. Tempora
+        officiis ad saepe animi excepturi, impedit deserunt inventore ex itaque eaque. Ducimus officiis in non rerum
+        ipsam laboriosam corrupti blanditiis? Ex, veniam tenetur? Numquam pariatur quisquam quo libero facere enim
+        voluptate optio, aspernatur, fugiat doloremque quae dolorum nulla deleniti nihil voluptatum nemo veniam vero,
+        consequuntur exercitationem doloribus error corrupti officia sapiente cum! Ducimus nesciunt quos, praesentium
+        porro quasi, minus aliquid enim veritatis quia, quibusdam pariatur nihil neque laudantium ad optio! Optio quod
+        rem quasi officiis deleniti error tenetur quae voluptate aperiam et, nostrum quos quis odit dicta pariatur
+        tempore laboriosam distinctio praesentium explicabo nulla. Pariatur, fugit neque nisi iure ducimus provident ex
+        autem molestias, excepturi accusantium illo. Eos, aperiam saepe sed fuga nulla ipsam dolores quas ad magnam quos
+        deserunt soluta officiis dolorem ut, delectus aut expedita qui, fugiat voluptas odio molestiae? Libero vero
+        asperiores voluptatum nisi corrupti! Possimus, architecto quos! Recusandae veritatis necessitatibus optio non
+        perspiciatis cumque, reprehenderit impedit rerum id dolores neque, quod eveniet voluptates possimus nesciunt
+        ipsam! Amet cum eos a tempora! Necessitatibus architecto voluptatum ad nostrum hic quis ab tenetur voluptates
+        cum impedit illum, et, quibusdam placeat nisi maiores sapiente dolor, laborum dignissimos. Quae nemo quasi
+        expedita nostrum. Eos a repudiandae ex optio, nesciunt eaque quis, quae, veniam quaerat doloremque quos! Iure
+        laborum est ipsam doloremque odio. Iusto nam placeat deserunt eaque maxime earum, maiores nulla magnam velit
+        enim quod eveniet ipsum unde accusantium optio ullam! Eos voluptatum asperiores qui ipsum temporibus provident
+        at odit, atque deleniti voluptatibus ipsa? Ducimus sed totam, eos voluptatum magni in eum fugiat molestiae
+        veniam, corrupti eius ut dolores. Quisquam quae ipsa dignissimos veniam corrupti odit laborum ab autem sequi?
+        Aliquid error consectetur esse repudiandae possimus eaque eos ad, odio inventore quam et facilis ipsa saepe,
+        sint sapiente fugiat, voluptatibus soluta beatae similique? Magni quasi temporibus quisquam, exercitationem
+        tempora consequuntur consequatur voluptate molestiae? Perferendis non eveniet tempore itaque reprehenderit nulla
+        soluta fugiat exercitationem alias hic labore incidunt eius minus sint commodi, aliquid nam! Saepe, consectetur
+        adipisci? Suscipit cum culpa sed accusamus labore facere obcaecati voluptatem minima pariatur! Neque cumque modi
+        libero quam nulla nesciunt autem incidunt nihil eligendi aperiam saepe, magnam nobis sint in, quas voluptate,
+        voluptatibus alias velit? Ratione nisi magni officiis ipsa tenetur, nostrum possimus est eum, quam ducimus ab
+        quia accusantium incidunt repudiandae. Amet error corporis aspernatur, neque optio assumenda accusantium
+        consequatur ullam illum pariatur odit reiciendis iste officia temporibus provident facere dolore. Maiores quasi
+        voluptatem animi! Sed dolor earum alias eveniet fugiat quibusdam at corrupti. Ipsa architecto numquam,
+        accusantium commodi in, inventore veritatis quibusdam eligendi tempora molestiae est at quos voluptatibus
+        soluta, blanditiis mollitia! Laboriosam distinctio blanditiis accusantium sint sunt eaque vitae quibusdam quis
+	facilis corporis excepturi est magni illo sequi fuga explicabo repellat corrupti, quo et dolorem at. Error,
+        quibusdam. Quaerat ad distinctio quae sapiente eligendi corporis. Deleniti maiores dolorem repellat deserunt
+        accusamus, dolor sit, maxime laudantium cum quaerat cupiditate. Praesentium, modi aliquid! Neque reprehenderit
+        nisi sit hic adipisci rem, nostrum facere iusto similique, dolorem accusamus aut libero vel a quasi nam
+        laboriosam architecto. Tempore iure possimus velit, mollitia veritatis in, fuga quis rerum molestias, deserunt
+        saepe optio. Possimus ipsam saepe corporis amet velit repellendus accusamus ad nihil, at dignissimos culpa
+        magnam laborum fuga libero harum quae nisi voluptatem non optio quia quod deserunt excepturi! Eaque, deserunt
+        voluptas distinctio porro officia repellat enim dolorum vitae aliquid praesentium quidem quisquam amet pariatur
+        quam repudiandae nihil reiciendis dolor adipisci quaerat dolorem est earum asperiores repellendus? Odit neque
+        deserunt porro a error ab tenetur eaque corrupti facere. Possimus quam fuga veniam laudantium distinctio
+        exercitationem dolorum, ipsa autem deleniti modi alias aperiam officiis, excepturi recusandae doloremque vel
+        dolore nihil optio earum illum culpa aliquid odio necessitatibus quidem! Iure consequatur dicta rem doloribus,
+        cumque maiores asperiores molestias quibusdam maxime ipsam sapiente repellat, unde officiis veritatis, dolorem
+        blanditiis! Consequatur omnis neque sequi suscipit, obcaecati a distinctio excepturi tempore? Porro, animi?
+        Earum obcaecati enim doloribus mollitia nobis. Numquam velit, perferendis atque porro ab dolores iusto,
+        excepturi tenetur molestias quia sint? Officiis cumque quos exercitationem nostrum quidem aut, nobis fugiat
+        ipsam aliquam ad eveniet inventore necessitatibus minima saepe natus impedit maiores. Omnis earum unde optio
+        excepturi ex dolores, ratione magni nisi? Dicta animi explicabo natus provident nesciunt sed doloremque tempore
+        qui! Amet iure mollitia ipsam, commodi praesentium esse autem quaerat saepe dolores, ex, facilis tempora error
+        possimus fugit nulla assumenda ducimus nisi perspiciatis nemo voluptatibus at quis. Vel fugit pariatur
+        accusantium quae repudiandae molestias odio omnis tempora? Vero omnis minus quod quas, ipsum possimus doloribus
+        aliquam similique ipsam, maxime expedita consequatur reprehenderit nam sunt eum facere dignissimos? Corrupti est
+        praesentium quibusdam. Voluptatibus dignissimos quaerat amet ipsam nulla. Optio cupiditate ullam illum. Eveniet
+        quibusdam ducimus dolor dolore fuga expedita quos asperiores adipisci ut saepe maiores, itaque odit fugit maxime
+        ex eius necessitatibus veniam sequi perspiciatis quidem non molestias esse. Doloremque, adipisci assumenda earum
+        voluptatem voluptatibus totam perferendis a? Beatae consequatur quidem nemo? Quaerat molestiae modi obcaecati
+        laborum, assumenda earum aut inventore tempora? Eius dolorem tenetur illo est, repellat ducimus molestias quae
+        numquam corporis! Voluptate aspernatur possimus repellendus nesciunt repudiandae asperiores tempore sunt
+        doloremque illum praesentium quia, doloribus labore perspiciatis! Esse consequuntur sint labore nisi amet
+        similique reiciendis animi suscipit! Cupiditate modi excepturi itaque. Tenetur ullam aut dignissimos cupiditate
+        quo fugiat, ducimus accusamus sunt adipisci soluta repellat assumenda impedit, delectus officia consequatur, vel
+        neque ipsum temporibus? Minus, corporis tenetur repellat aliquid ipsa libero non labore, dolore modi error nam
+        quibusdam consequuntur voluptas aut ea doloribus distinctio impedit illum numquam possimus. Eveniet optio,
+	dolores quaerat tempora maiores architecto nesciunt, totam, nihil quod autem voluptates alias libero facilis ea.
+        Aut nulla praesentium tenetur voluptatibus recusandae harum modi. Facere beatae error blanditiis tenetur
+        dignissimos dolores non quam natus. Delectus odit, fuga cupiditate incidunt fugiat, totam nemo excepturi ullam
+        dignissimos quae eius ratione voluptas animi corporis expedita deleniti aspernatur. Sapiente eligendi temporibus
+        perspiciatis quibusdam enim qui dicta minima debitis delectus. Non cum accusamus doloribus quisquam aliquid
+        blanditiis, quos nostrum aliquam aut ducimus quaerat officiis! Minus eveniet officiis quisquam dicta dolores
+        debitis blanditiis quas velit tempora ratione. Necessitatibus, dolorum odit fugiat molestias eaque totam quasi
+        tempore, voluptate consectetur debitis nostrum soluta aut quibusdam magnam atque. Nisi aspernatur nulla saepe
+        fugit quo ut assumenda corrupti cum beatae, aut placeat debitis obcaecati, hic, facilis delectus sapiente
+        quisquam quasi aliquid dolores consectetur expedita aliquam! Impedit assumenda aliquid iste quam optio corporis
+        expedita explicabo non ullam quaerat, excepturi laboriosam facere inventore, delectus ab tempora maxime enim
+        ipsum labore laudantium ad! Amet deserunt, repellat odio possimus nam sint alias, consequuntur vero illo,
+        excepturi quisquam ipsum. Delectus ex corrupti optio minima aspernatur voluptate nemo aut excepturi, ut,
+        reprehenderit soluta aliquam assumenda doloribus officiis tenetur quas harum rem distinctio dolorum iure atque
+        dicta dolores odit? Dignissimos itaque, laboriosam nesciunt, debitis quas optio ab cumque saepe deserunt iusto
+        porro culpa voluptatem sed, recusandae adipisci repudiandae eum aspernatur! Perspiciatis molestiae, itaque
+        maiores recusandae illo neque, doloremque quos, animi nesciunt corrupti laboriosam quasi minus rem sed nemo
+        dolorem! Corporis nesciunt ratione cupiditate, natus voluptas minima doloremque, minus repellat tempora, magni
+        iusto aspernatur illo repudiandae soluta reprehenderit! Optio iusto explicabo veniam! Earum, assumenda.
+        Perferendis error velit dolorum qui vitae iusto rem suscipit mollitia in nihil tempora ea nisi molestiae
+        quisquam neque recusandae quas sint eum, exercitationem facere officia inventore incidunt voluptate optio.
+        Incidunt facere optio fugit temporibus, omnis voluptatum libero voluptate architecto officiis fugiat sed
+        consequuntur ipsam doloribus sit odit in natus repellendus alias commodi sunt rerum. Expedita, repudiandae
+        veritatis eligendi quasi quidem, perferendis tempore unde, ipsum illo repellat accusamus nostrum natus vitae
+        amet quaerat molestiae? Voluptatem, illo, velit doloribus fuga cum excepturi tempora ex, suscipit rem rerum aut
+        officiis molestias vel sapiente nobis consequatur omnis officia mollitia molestiae aliquam? Distinctio nisi qui
+        sed laborum, recusandae, non porro rerum a reprehenderit rem quaerat fugiat eligendi maxime placeat quam,
+        ducimus eos commodi mollitia hic voluptatem ea. Rem repudiandae architecto voluptatibus nesciunt aperiam quia
+        delectus vitae maiores beatae adipisci voluptate id, molestias expedita aliquam iusto odio dolore minima tempora
+        modi, suscipit amet voluptates deserunt cum. Temporibus quaerat et corporis, libero velit sed. Necessitatibus
+        dolorum ea amet. Quos in voluptas veniam harum quaerat, cumque necessitatibus facilis delectus iste voluptates
+        sint eveniet est quasi magnam, numquam repudiandae doloremque at non, ipsam quis debitis corporis quibusdam?
+        Quia incidunt esse itaque iure corporis dolorum dolorem, magnam veritatis cupiditate repellendus minima
+	consectetur, maxime veniam impedit, dolor vitae est neque officia explicabo quos eum iusto reiciendis doloribus
+        sequi. Unde tempora maxime eligendi quibusdam voluptas eaque ipsam deserunt in dolorum incidunt repellendus,
+        porro, explicabo aut magnam adipisci atque commodi. Modi laboriosam, exercitationem, architecto minus quidem
+        fuga perspiciatis molestiae, magnam assumenda id enim atque veniam tempora minima ipsam harum ducimus nobis qui
+        vero reiciendis reprehenderit. Aut quae et temporibus distinctio amet natus quod rerum, laborum voluptatibus
+        iusto ducimus non suscipit similique unde consequuntur quisquam minus quas doloremque at totam maiores corrupti,
+        sunt harum. Maiores, est? Tenetur sunt ut, expedita optio a accusantium maiores. Dolorem reprehenderit numquam
+        magnam, aut nam enim voluptatum veritatis totam accusantium vel non maxime aspernatur hic sapiente quod
+        voluptate quos itaque, veniam rerum quo. Molestiae expedita velit sapiente explicabo nemo quo fugit ipsa est
+        ratione qui doloribus odio sit laudantium natus non accusantium architecto ex, voluptates ea voluptatibus?
+        Ducimus, reprehenderit sit sint beatae officia voluptas tempora culpa totam provident et magni, magnam id a
+        assumenda animi exercitationem modi aliquid quos eligendi facilis, minima inventore dolorem asperiores nulla!
+        Nam, ducimus magni aliquid itaque sunt inventore, deserunt doloremque laborum architecto eaque neque quaerat.
+        Sapiente ex eos veniam ad velit nesciunt totam quisquam obcaecati laborum eligendi nulla autem necessitatibus,
+        odit voluptatibus voluptatem repellat, similique tempore inventore alias culpa fugit hic quos quam qui. Laborum,
+        ipsum quaerat quidem veritatis maiores aperiam, fugit animi velit repellat ratione magnam neque adipisci
+        delectus quos porro error. Doloremque ducimus, consequatur ut minus mollitia reprehenderit porro vero illo ad
+        eius quasi eaque. Quo pariatur harum natus in blanditiis quibusdam amet earum, at sunt eum modi similique fuga
+        excepturi perspiciatis asperiores hic dignissimos. Labore dicta debitis dolores delectus officia, libero ipsam,
+        voluptatem facere minus minima tempora. Animi vel neque vitae soluta reiciendis asperiores architecto et ad
+        molestias dolores odit accusantium laudantium, quae molestiae, alias cupiditate sapiente ipsum in repudiandae,
+        eius nihil. Autem magnam eius porro beatae deserunt animi temporibus fugiat similique odit quod ullam quibusdam,
+        perferendis repellat ratione corporis fuga totam maxime voluptatibus quos! Consequuntur autem ad dolorum
+        laboriosam nobis magnam delectus exercitationem incidunt, veniam asperiores. Optio consectetur soluta
+        repellendus eaque facere quod voluptates laudantium eum natus at minima voluptatem perferendis, temporibus
+        mollitia nihil iusto! Provident, cum quod reiciendis veniam fuga accusamus laudantium mollitia maiores
+        repudiandae. Ducimus corporis facilis doloremque maiores labore nostrum accusamus, tempore quae quos laborum
+        sit, pariatur, voluptatem temporibus consequatur? Illum, laudantium neque quia cumque expedita in! Perferendis
+        amet quo sed architecto perspiciatis dolorum laborum esse neque, qui saepe sunt, iste porro veniam aliquid dolor
+        ullam provident consectetur recusandae suscipit reprehenderit ipsa? Voluptatem ratione dicta cupiditate quaerat
+        eligendi dolore exercitationem totam nihil nostrum, eius corrupti rem reprehenderit quisquam adipisci, minima,
+        ex debitis sapiente recusandae ipsa cum ut quasi soluta ad mollitia. Assumenda minima nesciunt provident quo vel
+        cum alias similique fugit quae quam vitae, earum, hic unde voluptatem nulla quibusdam neque soluta doloribus ex
+	ab id, pariatur mollitia deserunt delectus. Voluptate cumque excepturi itaque, tempore eius rem minus quibusdam!
+        Architecto deleniti eaque optio modi nisi totam beatae repellendus alias sapiente labore ea porro, tenetur cum
+        in repellat rem sed eum incidunt et ipsum quas dolor mollitia? Beatae repudiandae quod aperiam animi ipsa
+        architecto doloribus, cumque deleniti mollitia dolorem enim debitis totam, veniam sit explicabo at! Modi
+        pariatur magni perspiciatis eaque est tempore quos reprehenderit unde rerum fugit atque voluptas earum
+        recusandae quis exercitationem consectetur, rem fuga? Saepe magni nisi voluptatibus veniam, dolore asperiores ea
+        iste deserunt unde suscipit quasi a odit vel quibusdam est deleniti nulla minus hic consequatur tenetur
+        mollitia? Sit blanditiis repellendus fuga beatae esse earum, at quaerat sapiente aspernatur ipsa expedita,
+        adipisci saepe exercitationem architecto minus! Architecto distinctio necessitatibus sit odio ratione cupiditate
+        vero unde blanditiis voluptatibus voluptates omnis placeat obcaecati non veritatis, maxime neque aperiam
+        dignissimos fugit ipsa nam eveniet totam? Fugit dolor natus sequi tempore quisquam maiores, iusto dolorum ullam
+        dignissimos omnis magni doloremque nesciunt repellendus voluptates. Quae, alias quos, temporibus nesciunt
+        repudiandae dignissimos recusandae expedita, harum odit inventore quod? Eveniet nobis dolorum quod sint harum
+        recusandae magnam dignissimos maiores ducimus pariatur inventore beatae molestiae suscipit sunt natus cum, rem a
+        laboriosam eum exercitationem accusantium culpa, aliquam aut quisquam! Dolores voluptate repudiandae vero eius
+        accusamus voluptatem perspiciatis, soluta quam porro atque quidem, eum quo nam, asperiores sit qui odio
+        necessitatibus laborum perferendis aut? Eos veniam repellat dignissimos, quia aliquid provident aperiam officia
+        dolorum quos et, consequuntur dolorem vel quasi asperiores. Assumenda laboriosam non doloremque perspiciatis
+        aperiam laudantium ducimus? Saepe, eos quis. Quae obcaecati voluptates saepe porro quasi omnis deleniti
+        temporibus doloremque repellat quas. Magnam quod distinctio officiis repellat cum ullam? Libero maxime optio eum
+        nostrum nesciunt. Saepe nisi est, cumque, provident quod mollitia sed magni repellat vitae pariatur earum
+        officia dolorem aliquid ex praesentium veniam harum asperiores doloremque laboriosam, eum enim. Obcaecati,
+        pariatur similique nam magni cupiditate minus expedita? Saepe reprehenderit accusamus maiores unde, laudantium
+        voluptate, ullam dolores error minima, voluptas suscipit architecto exercitationem aspernatur eligendi nihil
+        quasi non atque nobis? Repudiandae nesciunt laboriosam quidem doloremque! Id, voluptatum consequuntur natus,
+        reprehenderit facilis non eos quisquam recusandae placeat culpa dolorum, ut ex excepturi enim debitis dolorem
+        qui soluta quos deleniti expedita nobis? Dolore rem eius culpa inventore facilis ab mollitia explicabo eveniet
+        corrupti, odit repellendus doloremque, praesentium placeat nulla consectetur, ex eaque labore tempore quidem
+        consequuntur qui. Odio nulla vitae, molestias in sit accusantium quidem inventore? Ullam quasi nam expedita
+        autem dolore? Asperiores rem eius impedit, ipsam magni iusto similique. Incidunt illum sunt fugit earum soluta
+        error tenetur. Ipsum assumenda tempora laborum numquam ratione iure quos laudantium quisquam dolores officiis ab
+        odio id incidunt natus quidem perspiciatis nesciunt dolor, minima consequatur hic illum animi earum recusandae!
+        Modi praesentium quis incidunt repudiandae voluptatem omnis corporis, officia quod hic ullam obcaecati vero
+	molestiae perferendis eligendi adipisci laborum? Corrupti eveniet sit enim officia, mollitia dignissimos,
+        commodi et, optio doloremque veritatis repudiandae. Facilis omnis esse officia rem natus obcaecati harum
+        adipisci ducimus eaque laudantium consectetur aliquam, optio fuga reprehenderit aliquid sint dolor voluptatum
+        odio expedita exercitationem quod officiis nam eligendi soluta! Cumque exercitationem iure explicabo quos
+        voluptatum rerum maxime ducimus, ab eum quidem veniam veritatis id quae blanditiis ad vero perspiciatis?
+        Doloremque, voluptatem beatae aliquid et fuga commodi, fugiat cumque sint ipsum molestiae corporis. Iusto eaque
+        accusantium quia aut ducimus velit ipsa quam architecto fugiat voluptatibus commodi quas, quaerat natus
+        inventore voluptatem nobis, deserunt cumque libero quos minima nihil labore molestias odit? Iusto autem quaerat
+        sapiente possimus, fugit quod quas temporibus, nisi porro reiciendis odio, explicabo laudantium odit
+        exercitationem est distinctio accusamus magni commodi voluptatibus asperiores consequuntur ipsa? Voluptatem
+        quidem mollitia porro praesentium maxime ea voluptatibus, eum dolore! Sapiente, dolorem quidem magni molestiae
+        nemo architecto cumque iste deserunt assumenda laudantium quasi quos ea. Alias vitae aspernatur suscipit odit
+        assumenda id ratione nemo rerum! Est similique doloribus, quasi at autem voluptatem odio recusandae culpa atque
+        velit, maiores numquam expedita. Sunt repellendus, corrupti velit voluptatum architecto rerum natus? Voluptate
+        iusto atque praesentium, aut voluptas obcaecati illo provident, dolorem magni sit expedita delectus non sunt?
+        Nihil, saepe repellendus iste obcaecati dignissimos, laudantium recusandae sed animi quas quasi voluptate quia
+        provident qui neque perspiciatis voluptates consequuntur, non deleniti. Sunt ea maxime laboriosam rem quod atque
+        iure architecto illo sapiente, facilis earum perferendis quia officiis illum, ex inventore sint molestiae quo.
+        Tenetur doloribus, laboriosam repudiandae, commodi, quam aliquam tempore tempora inventore alias esse animi
+        debitis! Placeat earum iste facilis, quaerat iure quis explicabo incidunt repellat repudiandae eaque excepturi
+        deleniti? Culpa esse autem nobis reprehenderit deleniti sequi. Assumenda voluptatem laboriosam eligendi alias
+        consequuntur consectetur perferendis tenetur, velit rem dolorum est, numquam sapiente vitae ducimus omnis soluta
+        accusamus fuga, aliquam fugit vero tempora facere ipsam autem. Enim odio aspernatur ad commodi, dolorum dolorem
+        rerum maiores a non iste repellendus ut et veniam vero inventore dolores accusamus nemo voluptates ipsam? In
+        enim explicabo ipsa libero animi vel est nostrum corporis nisi illo corrupti hic incidunt quisquam facilis
+        officia ipsam laborum, praesentium eius nesciunt dolor impedit? Repellendus ab, vero neque similique soluta
+        culpa at, cum dolores dolorum veritatis velit dolorem laudantium voluptates earum, quas doloremque ut aspernatur
+        fugit omnis iusto eaque dolor doloribus ipsa. Asperiores error aliquid quidem ipsum quis molestias nisi eos
+        corporis dolore tempore quas rem doloremque recusandae sit hic veritatis odio, voluptates consequuntur non
+        veniam iste blanditiis itaque laboriosam. Provident veniam, pariatur atque ad similique sed! Minima similique,
+        voluptatum, repudiandae error debitis culpa, rem cumque sed quam iusto provident rerum autem vel accusamus quae
+        quasi excepturi cupiditate doloribus praesentium. Ex, iure. Dignissimos ipsum facere magni quas quasi fuga
+        eligendi ex laborum quidem, corporis accusamus nobis vero. Aperiam, aliquam accusantium. Est ducimus, excepturi
+	nam error blanditiis distinctio necessitatibus. Similique doloremque deserunt dolor sed. Perspiciatis neque
+        dolorem fugiat ut quo quae! Unde blanditiis saepe deserunt ducimus quos, omnis tempora totam voluptas aliquam
+        ab, sint repellat repudiandae placeat architecto. Accusantium quisquam in magni quae alias aliquid quasi
+        exercitationem ipsa officia incidunt sed distinctio blanditiis, repudiandae minima fugiat quia dolorem corrupti
+        saepe? Reprehenderit tempore praesentium omnis nemo laboriosam id assumenda vitae deserunt est porro reiciendis
+        aut molestiae, suscipit labore aliquam neque beatae eum provident nulla soluta officiis non ratione. Deserunt
+        aspernatur maxime dolorem fuga asperiores eligendi amet at tenetur ut inventore, quibusdam, voluptatibus magni
+        blanditiis ullam officiis cum error ipsum neque necessitatibus nesciunt. Veniam commodi mollitia possimus
+        incidunt ratione hic amet earum atque soluta, impedit maiores ipsam maxime iure officia excepturi, velit
+        adipisci, totam fugiat? Tenetur quo impedit facilis officiis quos, quam quasi excepturi illum ipsa ullam
+        eligendi voluptate! Exercitationem quae aut iure cumque ad, fugit sint soluta possimus blanditiis impedit
+        placeat ea, recusandae minima facilis eos sapiente veniam ducimus voluptatibus. Laboriosam fugit saepe ducimus
+        dolorem, aperiam eius ullam reprehenderit recusandae quo eum expedita voluptatem illo veniam id voluptate
+        accusamus nulla ab iure facilis consequuntur, labore ipsum ipsam! Ipsum sequi vero provident obcaecati.
+        Reprehenderit perspiciatis aut laborum ab vel illo consequatur, quibusdam accusantium, quam praesentium
+        pariatur, eligendi quisquam qui sint voluptas totam iste officiis eaque laboriosam quis ex mollitia atque. At
+        libero aliquam maiores sequi harum facere quam, delectus suscipit mollitia doloribus laborum? Tenetur obcaecati
+        necessitatibus itaque totam repudiandae neque fugit aut culpa eaque voluptatibus deserunt deleniti tempore
+        quisquam corporis earum asperiores animi, mollitia officia quo. Accusantium officia magni cumque doloremque ea
+        excepturi, voluptatum delectus voluptas hic rem modi quam alias quos laborum. Sequi voluptatum officia quidem
+        harum necessitatibus. Consectetur numquam tenetur iste libero non mollitia deleniti ipsa ratione adipisci. Nemo,
+        accusantium, nisi eligendi ratione ad dolores iste provident, quam voluptas tenetur fugit quas voluptates vero!
+        Iusto laboriosam et inventore vero at, nemo neque similique illo perspiciatis. Omnis repellat alias similique
+        reprehenderit voluptatem autem rem. Placeat aliquam illo dolor? Porro vero, repellendus expedita laborum aliquam
+        consequuntur adipisci repellat nostrum a quaerat corporis nisi maxime suscipit illum, laboriosam deleniti
+        tempora quis recusandae excepturi tenetur ducimus iure asperiores amet. Fugit dignissimos, aliquam quam neque
+        dolorum illo aliquid cumque molestias quos sapiente quisquam odio aperiam eum sed sequi obcaecati ipsam
+        accusamus tempora veritatis animi? Aspernatur libero in incidunt ab corrupti modi suscipit fugit. In ullam ipsam
+        harum cumque consequatur blanditiis necessitatibus iusto at. Soluta atque, ullam ab facilis alias, culpa aut
+        quisquam reprehenderit nisi eos, id eligendi voluptatum illo illum nobis vero laborum iste? Officia modi,
+        molestiae assumenda eligendi omnis molestias quas minus consequatur necessitatibus culpa quaerat officiis esse
+        inventore iste suscipit ducimus. Amet, velit repudiandae iusto maxime pariatur reiciendis neque corporis
+        expedita modi nihil commodi maiores, accusantium voluptatem! Quo accusantium porro, incidunt ducimus quasi velit
+	deleniti magnam dolorem hic quos minus maiores assumenda ut aut mollitia et corrupti ratione veritatis
+        voluptatem. Laudantium perferendis maiores id, porro obcaecati, unde voluptatum doloribus quis earum rem iste
+        voluptatem voluptates quaerat blanditiis? Laudantium dolor ipsam enim nostrum ut tenetur ipsum labore
+        repudiandae doloremque facilis! Ipsum omnis, ratione veritatis sit pariatur rem molestias nesciunt deleniti
+        blanditiis! Iure odio, mollitia, provident veniam iste illo blanditiis nulla officia illum sed dolore velit est,
+        esse delectus? Eveniet at, maiores hic dignissimos recusandae eum nemo! Laborum fuga facere nostrum enim,
+        assumenda veniam quod. Possimus, enim officiis sunt quisquam cumque ullam assumenda non odit sapiente
+        repellendus nulla ea, necessitatibus at omnis quae minima commodi molestias? Error et neque doloribus fuga
+        excepturi quos minus fugiat quidem provident recusandae odit nihil distinctio autem voluptatibus, nam, amet
+        nulla rerum iusto sequi eum. Reiciendis porro laborum autem error commodi laboriosam dolorem ab atque tempore
+        blanditiis! Earum reprehenderit temporibus alias sequi possimus nostrum, eveniet corporis esse distinctio
+        dignissimos et suscipit quos eius consequatur, exercitationem voluptatum maxime facere? Nihil id ad ullam
+        obcaecati non, assumenda iure unde totam, repellat, aliquam quasi fugiat minus dignissimos corrupti alias
+        reiciendis ab voluptatibus voluptate sequi eaque. Consequuntur modi inventore veritatis, commodi rem optio ex
+        animi repellat nesciunt accusantium, dolores, eius exercitationem nam. Inventore praesentium esse magni officia
+        in libero? Molestias magnam at repellat, ratione vitae, dolorum ad, accusamus deleniti est architecto facilis
+        voluptate culpa praesentium consequuntur dolor quaerat illum quis odit tempore eligendi maxime. Nisi soluta esse
+        velit distinctio, ducimus repudiandae ex fugit officiis hic adipisci consectetur, aut mollitia deserunt? Odit
+        vero beatae aspernatur quam autem doloremque cupiditate porro, maiores quidem incidunt! Excepturi, facere quod.
+        Aspernatur, est dolorem. Atque expedita nesciunt quasi fuga tenetur incidunt consectetur laborum. Incidunt dolor
+        illo, facere deleniti minima veritatis similique, dignissimos quibusdam quaerat, distinctio mollitia iste itaque
+        maiores non delectus optio esse a adipisci perspiciatis et? Possimus ipsum doloremque accusantium inventore
+        deserunt cumque dolores, esse necessitatibus. Aspernatur quisquam reprehenderit quam magni voluptas quidem
+        ducimus sint, cupiditate dolores assumenda cum architecto doloremque ipsum molestiae facilis ex incidunt animi
+        qui sunt accusantium, aut quasi similique obcaecati dolor? Porro excepturi veniam sapiente. Incidunt aut quidem
+        fuga. At sed totam eaque porro ad ab molestiae similique, odit eius exercitationem nostrum mollitia sunt ipsum,
+        nesciunt provident suscipit rem optio quas tempore! Placeat distinctio vero at laborum laudantium eos
+        necessitatibus iusto aliquam obcaecati odio, tenetur debitis eaque laboriosam nulla quibusdam, optio corporis
+        rem beatae, nihil non sed eum! Eligendi nostrum quo natus officia. Qui reprehenderit ipsum, voluptate deleniti
+        delectus vero soluta, consectetur excepturi veniam saepe, magni quidem atque expedita rem impedit repellat.
+        Labore, unde eveniet vel possimus natus necessitatibus doloribus alias eligendi? Dolorum laborum eum, totam ad
+        soluta cum corrupti debitis. Sed illo enim placeat omnis aliquid vero iure maiores explicabo a distinctio? In
+        illum aperiam optio accusamus voluptates ipsa voluptate, tenetur molestiae. A provident, eum explicabo molestias
+	magni modi illum impedit, eos cum quibusdam consequuntur nesciunt sunt ex veritatis unde quia, illo suscipit
+        odit? Nisi, in, dolorem aperiam eum debitis officiis quidem possimus a perferendis ipsam voluptate voluptates
+        numquam dolores quod adipisci cupiditate vel molestias error vero voluptatem deleniti eaque consequuntur
+        blanditiis delectus. Illo, dolor? Doloremque tenetur repudiandae pariatur architecto officiis et eligendi aut
+        dignissimos nobis! Alias placeat consequuntur soluta magnam mollitia iure numquam molestias nobis consequatur
+        pariatur minima porro, veniam, harum at qui deleniti quos possimus voluptatibus veritatis quibusdam ut facilis!
+        Ipsam in, illo aut magni dignissimos praesentium omnis facere enim, eum, at porro dolore maiores consequuntur.
+        Voluptatem, reiciendis alias harum vero laboriosam repudiandae voluptas rem maiores quidem illum dolor possimus
+        vel deleniti quisquam, nulla labore a quo perferendis voluptates ratione dicta. Molestias reprehenderit,
+        veritatis, quod vitae cum explicabo culpa qui provident laborum sapiente ipsam! Minima vitae necessitatibus
+        delectus. Recusandae, consequuntur minus temporibus deleniti nulla aliquam. Reprehenderit delectus facilis in
+        deleniti nam. Qui officiis magnam inventore, neque perspiciatis labore iure, iusto incidunt laborum velit
+        similique ex possimus expedita voluptates voluptate eos quas reprehenderit vel obcaecati perferendis
+        exercitationem. Dolorum asperiores ea at, deserunt eius nesciunt eos molestias sint aliquam sit reiciendis
+        nostrum expedita hic exercitationem sequi suscipit, amet quo. Libero soluta consequatur quod mollitia quidem,
+        cupiditate, quibusdam iure saepe inventore autem, similique illo. Sunt laborum quidem quas ratione rerum maxime
+        cum itaque nam tempore delectus tenetur excepturi error sint beatae, veniam optio modi expedita qui alias
+        perspiciatis incidunt enim. Recusandae harum consequuntur expedita neque alias illum architecto pariatur
+        quibusdam? Repudiandae quas laborum illum! Tempora, ipsam voluptates molestias consequuntur assumenda recusandae
+        rerum mollitia? A distinctio, facilis eos obcaecati labore suscipit asperiores sunt sequi nesciunt, earum illo
+        assumenda corrupti iure nulla voluptatibus vitae beatae vero minima temporibus rem error aut quaerat autem.
+        Maxime dolor magnam ea facere nulla doloremque quasi ipsum nesciunt consectetur ullam hic placeat possimus
+        temporibus sequi expedita, aspernatur laborum repellat aut assumenda nisi nostrum fuga, fugiat voluptatum. Saepe
+        quod necessitatibus iste recusandae qui maxime? Illo nihil quia ullam eum excepturi atque sequi labore
+        reiciendis, ducimus incidunt temporibus, similique minus iste nulla itaque quo voluptates repellat vel voluptas
+        commodi omnis aut. Id ullam, repellendus dicta sint beatae est corporis labore aliquid eos blanditiis ipsam
+        consequuntur tenetur necessitatibus reprehenderit maiores nesciunt exercitationem expedita praesentium libero
+        modi rerum dignissimos dolores, animi in? Accusamus saepe maxime doloribus magni provident officiis placeat odio
+        delectus fuga sunt voluptates pariatur non magnam consequuntur in fugiat atque voluptatem corporis, eos iure
+        quaerat! Minima voluptatem autem ullam deleniti. Inventore recusandae suscipit, explicabo dolorum dolorem
+        voluptatum accusantium ipsam provident totam nobis. Eligendi amet blanditiis sapiente, quo doloremque quidem in
+        adipisci accusantium nemo minus veritatis facilis animi molestiae debitis ab consectetur corrupti! Tenetur culpa
+        pariatur necessitatibus architecto delectus molestias laborum. Reprehenderit distinctio temporibus nostrum nisi
+	cupiditate accusantium dolorem, accusamus enim molestiae facilis, ipsa at corrupti eveniet impedit, quo fuga
+        illo officiis consequuntur sint consectetur aliquam velit ea quos? Nulla reiciendis inventore deleniti debitis
+        minus ab quasi iste expedita atque beatae, nisi fugit aperiam vero cumque, dolorum iusto? Quae ducimus
+        blanditiis aspernatur nam earum atque veritatis aliquid in eveniet voluptate modi tempore ipsum aut quo
+        laboriosam culpa, officiis ipsa hic incidunt. Illo, nihil, nemo consequatur quidem hic reprehenderit odio
+        deleniti quo ad labore delectus aliquam quia qui cupiditate totam voluptatibus corporis blanditiis dignissimos
+        voluptatum, nam reiciendis rem mollitia. Nihil quasi ipsam dignissimos autem mollitia neque eius, beatae totam
+        tenetur, facilis aspernatur repellat fugiat quo esse, veniam dolorem sapiente placeat reiciendis! Consequatur
+        nam doloremque quod repellendus architecto voluptate? Aliquid tempora dicta voluptas amet quos mollitia
+        doloribus voluptate. Molestias quam deserunt officiis facere iste blanditiis culpa eaque dignissimos obcaecati
+        iusto doloremque corrupti aliquam, odit dolore. Quibusdam, quas excepturi ab ipsam soluta tempora voluptas aut
+        hic eaque perspiciatis rerum, nostrum nemo obcaecati fuga sequi impedit officia, illo enim ex necessitatibus
+        accusantium iure similique. Reiciendis soluta fugiat architecto cumque quaerat. Quod fuga nisi a, sit distinctio
+        inventore iusto laboriosam aliquam nemo amet deserunt laborum nulla quae quo tenetur, porro molestias, dolores
+        explicabo cupiditate quasi at aspernatur culpa! Voluptatum necessitatibus obcaecati alias sint tenetur odit.
+        Autem cupiditate neque quaerat? Quos hic ad labore, ducimus nesciunt ex explicabo necessitatibus aut ipsa
+        delectus, quisquam, nulla neque illum asperiores iure nobis quasi harum autem beatae deleniti ab dicta
+        exercitationem at. Error ducimus aut quod sed aliquid esse, est rerum, sit qui, amet eveniet. Iste ipsa commodi
+        velit cupiditate magnam doloremque, assumenda, corporis inventore quisquam consectetur fuga alias nulla debitis
+        reprehenderit quasi aspernatur nobis pariatur accusamus temporibus architecto autem aperiam! Quia natus
+        asperiores aliquam placeat maxime ex soluta hic. Debitis hic aliquam cumque nostrum maxime? Aut voluptas
+        corporis rem! Aut vel nisi molestias nostrum assumenda facilis placeat ut harum itaque sit dicta tempora quia
+        maxime beatae quo, ipsa quis praesentium repellat dolor doloremque enim. Consectetur aperiam laboriosam odio
+        modi quaerat corporis itaque assumenda eos placeat maxime sint, reprehenderit cum sunt necessitatibus non magni
+        odit doloribus facilis recusandae expedita sapiente porro tempora ipsam. Natus id optio officiis voluptates
+        laborum? Saepe, consequatur aspernatur. Itaque sequi minima illo debitis quod nesciunt aliquid libero eos
+        assumenda optio iure mollitia voluptate deserunt, perferendis, porro repellendus tenetur exercitationem quidem
+        iusto! Praesentium eum totam voluptatibus earum veniam repellat voluptates, saepe commodi, quae ipsa porro
+        optio! Totam enim delectus est architecto reprehenderit, nostrum earum asperiores repellendus aspernatur magnam
+        fuga ut, officia maxime excepturi dolores nesciunt expedita in quia nobis? Pariatur incidunt qui voluptate atque
+        consectetur et at laboriosam, quisquam, deleniti aut, sunt harum. Qui consectetur eaque sed neque inventore
+        possimus cupiditate est, similique quia dolorem id sequi amet totam voluptatem adipisci odit. Aliquid officia
+        quia possimus dolores facilis repudiandae ipsum praesentium officiis rem cumque deserunt obcaecati accusantium
+	dicta perferendis fuga suscipit similique quaerat omnis nobis, alias beatae rerum iste porro. Cupiditate porro
+        illum blanditiis impedit aliquid iusto dignissimos quas reiciendis magnam sequi doloremque, vitae recusandae
+        corporis similique expedita unde beatae, quidem vero laboriosam. Cupiditate ad aut id corporis magnam.
+        Aspernatur ipsa magnam eveniet sequi porro, et suscipit corporis doloribus quis? Et labore, veritatis pariatur,
+        sunt ratione aspernatur aperiam sint praesentium perspiciatis dolore at neque beatae aut voluptate eligendi
+        minus fuga architecto minima eaque ipsum debitis magni cum. Sint maiores at vero non voluptatum maxime excepturi
+        cupiditate odit nemo architecto magni magnam quis, soluta rem quasi natus. Et ab placeat aut cupiditate ad
+        dolorum doloribus facere qui officiis, esse provident commodi odit quasi sit distinctio totam eligendi sequi
+        dicta harum dolor ratione suscipit? Quaerat quam consequuntur beatae neque doloribus quod, similique deleniti
+        error eligendi voluptas minus praesentium esse. Ipsa necessitatibus sit minima itaque exercitationem explicabo
+        qui illum dignissimos fugiat molestias tenetur neque corrupti laboriosam, beatae labore.</p>
+</body>
+
+</html>
+
+
+
+/* .parentContainer > img{
+    float: right;
+} */
+
+/* div{
+    width: 250px;
+    height: 300px;
+    border: 4px solid red; */
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto;
+} */
+
+/* div{
+    width: 250px;
+    height: 300px;
+    border: 4px solid red; */
+    /* overflow: auto ; */
+/* }
+div > img {
+    width: 250px;
+    height: 300px; */
+    /* object-fit: fill;
+    object-fit: contain; */
+    /* object-fit: cover;
+ 
+} */
+/* 
+div{
+    width: 200px;
+    height: 100px;
+    background-color: red; */
+    /* position: static;
+    top: 200px;
+    left: 200px; */
+/* } */
+/* 
+#parentContainer{
+    width: 560px;
+    height: 450px;
+    background-color: bisque;
+    padding: 20px;
+    margin: 50px 200px;
+    position: relative;
+}
+
+#parentContainer > .test{
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+#parentContainer > .test:first-child{
+    background-color: aqua; */
+    /* position: relative;
+    top: 150px;
+    left: 450px; */
+    /* position: absolute;
+    top: 150px;
+    left: 350px;
+  
+}
+#parentContainer > .test:nth-child(2){
+    background-color: rgb(0, 255, 0);
+}
+#parentContainer > .test:last-child{
+    background-color: rgb(255, 0, 217);
+} */
+
+/* div{
+    width: 200px;
+    height: 100px;
+    background-color: red; 
+    position: fixed;
+  bottom: 50px;
+  right: 60px;
+    color: #fff;
+ } */
+
+
+ div{
+    width: 100%;
+    height: 100px;
+    background-color: red; 
+    color: #fff;
+    position: sticky;
+top: 10px;
+ }
+
+
+
+====================
+DAY 4 - 3 JAN 2024
+===================
+
+<!-- <div>
+    hello
+   </div>
+   <p>lorem5000</p> -->
+
+    <section id="mainBlock">
+        <article>
+            <main>
+                <div class="blueBlock">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVhtFJc9v3hEBfhJiOhYMS_60ieEbiOjPJyxl8F2dIBw&s"
+                        alt="">
+                </div>
+                <div class="whiteBlock">
+                    <h2>whiteBlock</h2>
+                    <p>Lorem ipsum dolor sit am adipisicing elit. Cum, facere quae soluta laboriosam
+                      </p>
+                        <button>View  More</button>
+                </div>
+            </main>
+        </article>
+    </section>
+
+    /* div{
+    width: 250px;
+    height: 100px;
+    background-color: red;
+    color: white; */
+    /* position: static;
+    top: 100px;
+    left: 100px; */
+    /* position: fixed;
+    top: 150px;
+    left: 450px; */
+    /* position: sticky;
+    top: 0px; */
+/* } */
+
+/* !html cards css */
+#mainBlock{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+#mainBlock > article{
+    width: 650px;
+    height: 65vh;
+    background-color: #ccc;
+    position: relative;
+    top: 90px;
+    left: 300px;
+}
+
+#mainBlock > article > main{
+    width: 250px;
+    height: 55vh;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 30px;
+    left: 200px;
+    border-radius: 20px;
+}
+main   > .blueBlock{
+    width: 100%;
+    background-color: blue;
+    height: 50%;
+    border-radius: 20px 20px 0px 20px;
+}
+.blueBlock > img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    outline: 3px solid #fff;
+    outline-offset: 4px;
+}
+main   > .whiteBlock{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 50%;
+    border-radius: 0px 20px 20px 20px;
+}
+.whiteBlock > h2{
+    text-align: center;
+}
+
+.whiteBlock > p{
+    text-align: center;
+}
+.whiteBlock > button{
+    position: absolute;
+    bottom: 0px;
+    left: 80px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+}
+
+------
+
+
+ <!-- <section>
+    <img src="https://cdn.pixabay.com/photo/2023/07/29/06/28/bird-8156308_1280.jpg" alt="">
+ </section> -->
+ <!-- <div class="item item1">Div1</div>
+ <div class="item item2">Div2</div>
+ <div class="item item3">Div3</div>
+ <div class="item item4">Div4</div>
+ <div class="item item5">Div5</div> -->
+
+ <!-- !transform property -->
+ <div>Hello</div>
+
+ /* section{
+    width: 250px;
+    height: 250px;
+    border: 3px solid red;
+}
+section > img{
+    width: 250px;
+    height: 250px; */
+    /* object-fit: fill; */
+    /* object-fit: contain; */
+    /* object-fit: cover;
+} */
+/* 
+.item{
+    width: 200px;
+    height: 100px;
+}
+.item1{
+    background-color: red;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    z-index: 999;
+}
+.item2{
+    background-color: rgb(38, 255, 0);
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    z-index: 888;
+}
+.item3{
+    background-color: rgb(43, 0, 255);
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    z-index: 777;
+}
+.item4{
+    background-color: rgb(255, 0, 208);
+    position: absolute;
+    top: 100px;
+    left: 550px;
+    z-index: 666;
+}
+.item5{
+    background-color: rgb(229, 255, 0);
+    position: absolute;
+    top: 50px;
+    left: 650px;
+    z-index: 555;
+} */
+
+/* !transform property */
+div{
+    width: 150px;
+    height: 150px;
+    margin: 50px 100px;
+    background-color: coral;
+    color: #fff;
+    /* transform: rotate(45deg) ; */
+    /* transform: skew(45deg); */
+    /* transform: scale(1.5); */
+    /* transform: translate(50px); */
+    transform: translate(108px,75px);
+}
+
+
+
+=============================
+DAY 5 - 4 JAN 2024
+=============================
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="./index.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet"> -->
+</head>
+
+<body>
+ <!-- <section>
+    <img src="https://cdn.pixabay.com/photo/2023/07/29/06/28/bird-8156308_1280.jpg" alt="">
+ </section> -->
+ <!-- <div class="item item1">Div1</div>
+ <div class="item item2">Div2</div>
+ <div class="item item3">Div3</div>
+ <div class="item item4">Div4</div>
+ <div class="item item5">Div5</div> -->
+
+ <!-- !transform property -->
+ <!-- <div>Hello</div> -->
+ <!-- <div>
+content
+ </div>
+ <img src="https://cdn.pixabay.com/photo/2023/12/10/03/00/peacock-8440548_1280.jpg" alt=""> -->
+
+ <!-- <div id="transit">
+
+ </div> -->
+<!-- 
+ <div class="items item1">linear</div>
+ <div class="items item2">ease</div>
+ <div class="items item3">ease-in</div>
+ <div class="items item4">ease-out</div>
+ <div class="items item5">ease-in-out</div> -->
+<!-- <div id="imageTransit">
+    <img src="https://cdn.pixabay.com/photo/2023/12/08/08/58/sea-8437245_1280.jpg" alt="">
+</div> -->
+<!-- <div></div> -->
+<!-- <img src="https://cdn.pixabay.com/photo/2023/12/08/08/58/sea-8437245_1280.jpg" alt=""> -->
+<!-- !animation property -->
+<section id="animate"></section>
+</body>
+
+</html>
+
+
+/* div{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin: 50px 100px; */
+    /* transform: rotate(45deg) , rotateX('angle'); */
+    /* transform: skew(65deg); */
+    /* transform: scale(1); */
+    /* transform: translate(119px,200px); */
+/* } */
+
+/* div{
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    background-color: aquamarine;
+    position: relative;
+    z-index: 1; */
+    /* background-image: url("https://cdn.pixabay.com/photo/2023/12/10/03/00/peacock-8440548_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+   
+/* }
+
+img{
+    position: relative;
+    top: -190px;
+    left: 0px; */
+    /* z-index: -1; */
+/* } */
+
+
+/* !transition property */
+/* #transit{
+    width: 150px;
+    height: 150px;
+    background-color: coral; */
+    /* transition-property: width , height , background-color; */
+    /* transition-duration: 0.1s; */
+    /* transition-delay: 3s; */
+    /* transition-timing-function: linear; */
+/* transition-timing-function: linear;
+}
+#transit:hover{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(80, 86, 255);
+} */
+
+/* .items{
+    width: 250px;
+    height: 100px;
+    background-color: red;
+    color: #fff;
+    margin: 2px;
+    transition-duration: 5s;
+}
+.items:hover{
+    width: 450px;
+}
+.item1{
+    transition-timing-function: linear;
+}
+.item2{
+    transition-timing-function: ease;
+}
+.item3{
+    transition-timing-function: ease-in;
+}
+.item4{
+    transition-timing-function: ease-out;
+}
+.item5{
+    transition-timing-function: ease-in-out;
+} */
+
+ 
+ /* #imageTransit{
+    width: 450px;
+    height: 450px;
+    border: 3px solid red; */
+    /* overflow: hidden;
+}
+#imageTransit > img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    transition-duration: 6s;
+   
+} */
+/* #imageTransit:hover img{ */
+   /* transform: scale(1.2); */
+   /* transform: rotate(360deg);
+}  */
+
+/* div{
+    width: 150px;
+    height: 150px;
+    border: 2px solid red;
+    margin: 50px 100px;
+    background-color: aquamarine;
+    transition: all 1s ease-in;
+}
+
+div:hover{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(360deg);
+} */
+/* 
+img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid red;
+    margin: 50px 100px;
+    background-color: aquamarine;
+    transition: all 1s ease-in;
+}
+
+img:hover{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(-360deg);
+} */
+
+/* !animation property */
+#animate{
+    width: 150px;
+    height: 150px;
+    background-color: coral;
+    animation-name: move;
+    animation-duration: 3s;
+    /* animation-delay: 3s; */
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+/* @keyframes move {
+    from{
+        width: 150px;
+        height: 150px;
+        background-color: coral;
+    }
+    to{
+        width: 300px;
+        height: 300px;
+        background-color: rgb(234, 9, 9);
+    }
+} */
+
+@keyframes move {
+    0%{
+	position: relative;
+	top: 0px;
+	left:0px;
+	background-color: antiquewhite;
+    }
+    25%{
+        position: relative;
+	top: 0px;
+	left:400px;
+	background-color: bisque;
+    }
+    50%{
+        position: relative;
+        top: 400px;
+        left:400px;
+        background-color: pink;
+    }
+    75%{
+        position: relative;
+        top: 400px;
+        left:0px;
+        background-color: yellow;
+        border-radius: 50%;
+    }
+    100%{
+        position: relative;
+        top: 0px;
+        left:0px;
+        background-color: azure;
+    }
+}
+
+
+=======================
+DAY 5 - 6 JAN 2024
+=======================
+
+<!-- !box model -->
+<!-- <h1>Hello</h1>
+<span>SPAN TAG</span> -->
+<!-- <div>DIV </div> -->
+
+<!-- <section>
+    <div>
+        hello
+    </div>
+</section> -->
+
+<!-- !display properties -->
+<!-- <div>Div</div>
+<span>SPAN</span>
+<section>Section</section> -->
+<section>
+    <div>div1</div>
+    <div>div2</div>
+    <div>div3</div>
+    <div>div4</div>
+    <div>div5</div>
+</section>
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* div{
+    background-color: aquamarine;
+    width: 30px; */
+    /* padding-top: 35px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-left: 20px; */
+    /* padding: 35px ; */
+    /* padding: 35px 70px; */
+    /* padding: 35px 70px 140px; */
+    /* padding: 35px 70px 140px 20px; */
+    /* border: 4px solid red; */
+    /* margin-top: 15px;
+    margin-right:30px ;
+    margin-bottom: 45px;
+    margin-left: 60px; */
+    /* margin: 15px 30px 45px 60px;
+} */
+
+/* section 
+{
+    width: 200px;
+    height: 400px;
+    background-color: yellow;
+} */
+/* section > div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 4px solid rgb(2, 38, 240); */
+    /* box-sizing: content-box; */
+    /* box-sizing: border-box;
+} */
+
+/* div{
+    width: 200px;
+    height: 200px; */
+    /* border: 2px solid red; */
+    /* padding: 30px;
+    margin: 100px 120px;
+    box-shadow: 2px 2px 46px 0px black;
+} */
+
+/* !display properties */
+/* div{
+    background-color: aquamarine;
+    display: inline;
+    width: 50%;
+    height: 50vh;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+span{
+    background-color: violet;
+    display: block;
+    width: 50%;
+    height: 50vh;
+} */
+
+/* section{
+background-color: blue;
+display: inline-block;
+width: 450px;
+height: 30vh;
+margin-top: 30px;
+} */
+
+section{
+    width: 600px;
+    height: 450px;
+    background-color: beige;
+    border: 2px solid red;
+    margin: 20px 100px;
+    display: flex;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+}
+/* div{
+    display: inline; ! not possible
+    width: 300px;
+} */
+/* div{
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    top: 200px;
+    left: 150px;
+} */
+div{
+    height: 120px;
+    /* width: 100px; */
+    flex-basis: 100px; /*width*/ */
+}
+div:first-child{
+    background-color: aqua;
+    /* flex-grow: 1; */
+    flex-shrink: 2;
+}
+div:nth-child(2){
+    background-color: green;
+    /* flex-grow: 1; */
+    flex: 1;
+}
+div:nth-child(3){
+    background-color: rgb(237, 9, 9);
+    /* flex-grow: 1; */
+}
+div:nth-child(4){
+    background-color: rgb(255, 9, 234);
+    /* flex-grow: 1; */
+    flex-shrink: 2;
+}
+div:last-child{
+    background-color: yellow;
+    /* flex-grow: 2; */
+    /* flex: 1;
+} */
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="./index.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet"> -->
+</head>
+
+<body>
+<section id="mainBlock">
+    <article>
+        <main>
+            <aside class="imgBlock">
+       
+                <img src="https://cdn.pixabay.com/photo/2023/11/29/12/29/kid-8419485_1280.jpg" alt="">
+            </aside>
+            <aside class="contentBlock">
+                <h2>David bell</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eos veniam rem?</p>
+                <button>View More</button>
+            </aside>
+        </main>
+    </article>
+</section>
+</body>
+
+</html>
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#mainBlock{
+    width: 100%;
+    height: 100vh;
+    background-color: #ccc;
+}
+#mainBlock > article{
+    width: 70%;
+    height: inherit;
+    margin: 0 auto;
+    background-color: rgb(143, 184, 184);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    width: 320px;
+    height: 450px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.imgBlock{
+    flex-basis: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgBlock > img{
+    width: 120px;
+    height: 120px;
+    border-radius:50% ;
+    outline: 4px solid #fff;
+    outline-offset: 10px;
+}
+.contentBlock{
+    flex-basis: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contentBlock > h2{
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+.contentBlock > p{
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.contentBlock > button {
+    padding: 10px 45px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+}
+
+
+
+
+=======================
+DAY 6 - 8 JAN 2024
+=======================
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASICS OF CSS</title>
+    <link rel="stylesheet " href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- !box model -->
+  <!-- <h1>Hello</h1>
+  <span>SPan</span>
+  <img src="https://cdn.pixabay.com/photo/2023/07/21/08/23/flower-8141085_1280.jpg" width="300" height="300" alt=""> -->
+  <!-- <section>
+    <div>
+
+    </div>
+  </section> -->
+  <!-- !flex -->
+  <!-- <div>Block level elements</div>
+  <a href="https://pixabay.com/photos/flower-rose-blooming-bloom-gloomy-8141085/">Google</a>
+  <span>SPAN tag</span> -->
+  <!-- <section id="parentContainer">
+    <div class="items item1">div1</div>
+    <div class="items item2">div2</div>
+    <div class="items item3">div3</div>
+    <div class="items item4">div4</div>
+    <div class="items item5">div5</div>
+  </section> -->
+  <section id="geeksBlock">
+    <article>
+      <aside>
+        <header>
+          <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png" alt="">
+        </header>
+        <main>
+          <h2>GEEKS-FOR-GEEKS</h2>
+          <p>@geeks_for_geeks</p>
+          <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+          </div>
+          <p>A Computer science portal for geeks</p>
+          <button>Message</button>
+        </main>
+      </aside>
+    </article>
+  </section>
+</body>
+
+</html>
+
+-----
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* section{
+    width: 200px;
+    height: 400px;
+background-color: aquamarine;
+}
+section > div{
+    width: 200px;
+    height: 200px;
+background-color: tomato;
+border: 4px solid blue;
+padding: 20px; */
+/* box-sizing: content-box; */
+/* } */
+/* 
+div{
+    background-color: blueviolet;
+    color: #fff;
+    display: inline;
+    width: 50%;
+}
+a{
+    background-color: coral;
+    color: #fff;
+    display: block;
+}
+
+span{
+    background-color: crimson;
+    color: #fff;
+    display: inline-block;
+    width: 30%;
+    height: 20vh;
+    margin-top:30px ;
+} */
+/* !flex property */
+/* #parentContainer{ */
+    /* width: 300px; flex shrink */
+    /* width: 800px;
+    height: 600px;
+    background-color: bisque;
+    margin: 40px 100px;
+    border: 4px solid red;
+    display: flex; */
+    /* align-items: flex-end; */
+    /* justify-content: flex-end; */
+    /* align-items: center;
+    justify-content: center; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+/* }
+.items{
+    /* width: 100px; */
+    /* flex-basis: 100px;
+    height: 100px;
+    color: #fff; */ 
+    /* display: inline; */
+    /* display: inline-block; */
+    /* flex-grow: 1; */
+/* } */
+/* .item1{
+    background-color: aquamarine;
+}
+.item2{
+    background-color: black; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 3; */
+/* }
+.item3{
+    background-color: violet;
+flex-shrink: 10;
+}
+.item4{
+    background-color: crimson; */
+    /* flex-grow: 2; */
+/* }
+.item5{
+    background-color: teal;
+} */
+
+/* /!cards */
+#geeksBlock{
+    width: 100%;
+    height: 100vh;
+    background-color: #2c2a2a;
+}
+#geeksBlock > article{
+    width: 60%;
+    height: inherit;
+    margin: 0 auto;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+aside{
+    width: 350px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+aside > header{
+    background-color: #1188F7;
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:25px 25px  0px 0px ;
+}
+aside > header > img {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 2px 4px 60px 0px black;
+}
+aside > main{
+    background-color: #fff;
+    flex-basis: 60%;
+    border-radius: 0px 0px 25px 25px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+main > h2{
+    font-weight: lighter;
+    color: #535353;
+    margin-bottom: 6px;
+}
+main > p:nth-child(2){
+    color: #535353;
+    margin-bottom: 20px;
+}
+main > div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main > div > i{
+    font-size: 30px;
+    color: #999;
+    margin-bottom: 20px;
+}
+main > p:nth-child(4){
+    color: #535353;
+    margin-bottom: 20px;
+}
+main > button{
+    padding: 28px 95px;
+    border-radius: 40px;
+    background-color: #1188F7;
+    color: #000000;
+    border: none;
+    font-size: 18px;
+}
+
+
+
+=======================
+DAY 7 - 9 JAN 2024
+=======================
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASICS OF CSS</title>
+    <link rel="stylesheet " href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<!-- <div id="trans"></div>
+
+<div class="items item1">linear</div>
+<div class="items item2">ease</div>
+<div class="items item3">ease-in</div>
+<div class="items item4">ease-out</div>
+<div class="items item5">ease-in-out</div> -->
+
+<div id="animate"></div>
+</body>
+
+</html>
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* #trans{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(2, 242, 162);
+    position: relative;
+    top: 100px;
+    left: 150px; */
+    /* transform: rotateZ(34deg); */
+    /* transform: skew(105deg); */
+    /* transform: scale(1); */
+    /* transform: translate(35px);   */
+      /* transform: translate(107px,200px); */
+
+/* } */
+
+/* !transition */
+/* #trans{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(2, 242, 162);
+    position: relative;
+    top: 100px;
+    left: 150px;
+    transition-property: all;
+    transition-duration: 4s; */
+    /* transition-delay: 3s; */
+    /* transition-timing-function: ease-in-out;
+}
+#trans:hover{ */
+    /* transform: rotate(360deg); */
+    /* transform: scale(1.5);
+}
+
+.items{
+    width: 250px;
+    height: 100px;
+    background-color: blue;
+    color: #fff;
+    margin: 2px;
+    transition-duration: 5s;
+}
+.items:hover{
+    width: 500px;
+}
+.item1{
+    transition-timing-function: linear;
+}
+.item2{
+    transition-timing-function: ease;
+}
+.item3{
+    transition-timing-function: ease-in;
+}
+.item4{
+    transition-timing-function: ease-out;
+}
+.item5{
+    transition-timing-function: ease-in-out;
+} */
+
+/* !Animation */
+#animate{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(141, 189, 231);
+    animation-name: rotate;
+    animation-duration: 3s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    position: relative;
+}
+/* @keyframes rotate {
+    from{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    to{
+        position: relative;
+        top: 200px;
+        left: 400px;
+    }
+} */
+
+@keyframes rotate {
+    0%{
+      top: 0px;
+      left: 0px;
+      transform: scale(1.2); 
+    }
+    25%{
+       top: 0px;
+       left: 350px;
+       transform: rotate(360deg);
+       border-radius: 50%;
+       background-color: violet;
+    }
+    50%{
+        top: 350px;
+        left: 350px;
+        transform: skew(45deg);
+        background-color: blue;
+    }
+    75%{
+        top: 0px;
+        left: 0px;
+        background-color: yellow;
+    }
+    /* 100%{
+        top: 0px;
+        left: 0px;
+    } */
+/* } */
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASICS OF CSS</title>
+    <link rel="stylesheet " href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<!-- !Grid -->
+<!-- <section id="gridContainer">
+    <div class="items item1">div1</div>
+    <div class="items item2">div2</div>
+    <div class="items item3">div3</div>
+    <div class="items item4">div4</div>
+    <div class="items item5">div5</div>
+    <div class="items item6">div6</div> -->
+    <!-- <div class="items item7">div7</div>
+    <div class="items item8">div8</div>
+    <div class="items item9">div9</div>
+    <div class="items item10">div10</div> -->
+<!-- </section> -->
+<!-- <section id="gridContainer">
+    <div class="items item1">Header</div>
+    <div class="items item2">sidebar</div>
+    <div class="items item3">content1</div>
+    <div class="items item4">content2</div>
+    <div class="items item5">content3</div>
+    <div class="items item6">footer</div>
+    </section> -->
+
+<section id="gridContainer">
+<div class="items item1">1</div>
+<div class="items item2">2</div>
+<div class="items item3">3</div>
+<div class="items item4">4</div>
+<div class="items item5">5</div>
+<div class="items item6">6</div>
+<div class="items item7">7</div>
+<div class="items item8">8</div>
+</section>
+</body>
+
+</html>
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* #gridContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    display: grid; */
+    /* grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 80px 400px 200px; */
+    /* gap: 4px;
+}
+.items{ */
+    /* background-color: coral;
+    margin: 4px; */
+/* }
+.item1{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.item2{
+    background-color: yellow;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.item3{
+    background-color: violet;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.item4{
+    background-color: teal;
+}
+.item5{
+    background-color: chartreuse;
+}
+.item6{
+    background-color: crimson;
+    grid-column-start: 1;
+    grid-column-end: 4;
+} */
+
+#gridContainer{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 2px;
+}
+.items{
+    background-color: blue;
+}
+.item1{
+    background-color: green;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.item2{
+    background-color: green;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.item3{
+    background-color: crimson;
+}
+.item4{
+    background-color: yellow;
+}
+.item5{
+    background-color: rgb(215, 64, 18);
+}
+.item6{
+    background-color: yellow;
+}
+.item7{
+    background-color: rgb(215, 64, 18);
+}
+.item8{
+    grid-column-start: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+
+=======================
+DAY 8 - 10 JAN 2024
+=======================
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASICS OF CSS</title>
+    <link rel="stylesheet " href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <!-- <section id="gridContainer">
+<div class="items item1">header</div>
+<div class="items item2">aside</div>
+<div class="items item3">section1</div>
+<div class="items item4">section2</div>
+<div class="items item5">article</div>
+<div class="items item6">footer</div>
+</section> -->
+
+
+    <!-- <h1 id="visibleHidden">VISIBILITY:HIDDEN</h1>
+<h1 id="displayNone">DISPLAY: NONE</h1> -->
+
+
+    <section>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ullam consequuntur consequatur officiis odio
+            iusto accusantium blanditiis impedit sunt possimus!
+        </p>
+    </section>
+</body>
+
+</html>
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* #gridContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-rows: 80px 300px; */
+    /* column-gap: 8px;
+    row-gap: 8px; */
+    /* gap: 8px;
+} */
+/* .items{
+    border: 6px solid #000;
+}
+.item1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.item2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.item5{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.item6{
+    grid-column-start: 1;
+    grid-column-end: 4;
+} */
+
+
+/* !grid-template-areas */
+/* #gridContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: grid;
+    grid-template-areas: "aside header header"
+                         "aside sec1 sec2"
+                         "article article article"
+                         "footer footer footer";
+                         gap: 4px;
+}
+
+.items{
+    border: 6px solid #000;
+}
+
+.item1{
+    grid-area: header;
+}
+.item2{
+    grid-area: aside;
+}
+.item3{
+    grid-area: sec1;
+}
+.item4{
+    grid-area: sec2;
+}
+.item5{
+    grid-area: article;
+}
+.item6{
+    grid-area: footer;
+} */
+
+/* !difference between display:none and visibility:hidden */
+
+/* #displayNone{
+display: none;
+} */
+/* 
+#visibleHidden{
+    /* visibility: visible; */
+    /* visibility: hidden;
+} */ 
+
+
+/* !units */
+/* !% , px ,vw ,vh , rem ,em */
+/* html{
+    font-size: 24px;
+} */
+ /* section{
+    font-size: 20px;
+} */
+/*
+p{
+    font-size: 3.5em;
+} */
+
+/* p{
+    font-size: 2rem;
+} */
+
+------------------------------------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section id="formBlock">
+        <article>
+            <main>
+                <aside class="loginblock">
+                    <h2>Login</h2>
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <p>or use your account</p>
+                    <form action="">
+                        <div> <input type="email" placeholder="Email"></div>
+                        <div><input type="password" placeholder="password"></div>
+                        <div class="forget">Forgot your password?</div>
+                        <div><input type="submit" value="LOG IN"></div>
+                    </form>
+                </aside>
+                <aside class="contentblock">
+                    <h2>HTML CSS LOGIN FORM</h2>
+                    <p>Lorem ipsum dolor sit  voluptatum fuga iste doloremque minus perspiciatis velit harum?</p>
+                </aside>
+            </main>
+        </article>
+    </section>
+</body>
+
+</html>
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#formBlock{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#formBlock > article{
+    width: 70%;
+    height: 80vh;
+    margin: 0 auto;
+    background-color: #F3E0E2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    width: 700px;
+    height: 450px;
+    display: flex;
+}
+
+.loginblock{
+    flex-basis: 50%;
+    background-color: #ffffff;
+    border-radius: 12px 0px 0px 12px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.loginblock > h2{
+    font-size: 34px;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+}
+.fa-brands{
+    font-size: 34px;
+    margin-bottom: 45px;
+    margin-right: 15px;
+    color: #848484;
+}
+.loginblock > p{
+    color: #848484;
+    margin-bottom: 5px;
+}
+.loginblock > form {
+    width: 100%;
+}
+.loginblock > form > div > input[type="email"],.loginblock > form > div > input[type="password"]{
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+    background-color: #dfdfdf;
+    margin-bottom: 10px;
+}
+.loginblock > form > div:nth-child(3){
+    text-align: center;
+    margin-bottom: 20px;
+}
+.loginblock > form > div:nth-child(4) input[type="submit"]{
+    background-color: #FF4B2B;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 40px;
+    margin-left: 70px;
+    color: #fff;
+    font-weight: bold;
+}
+.contentblock{
+    flex-basis: 50%;
+    background-color: #FF4269;
+    border-radius: 0px 12px 12px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.contentblock > h2{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.contentblock > p{
+    color: #d3d3d3;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+=======================
+DAY 9 - 13 JAN 2024
+=======================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping for Women, Men, Kids Fashion &amp; Lifestyle - Myntra</title>
+    <link rel="stylesheet" href="./mynthra.css">
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAKSElEQVR42u1ZeVRU5xUviolNoh6RRRZxw7iTtLhhbWNd0kStptG4YDEpiXWJG4laqcbdiFalxgU1Vot41CSiEgQVNARRCCqgIqjsKiCCgMMww+y/3vsOY8MZmPcGNfrH+51zz3AO8+537+/+7v2+782vZMiQIUOGDBkyZMiQIUPGE0Kn0/U3mUzHABSTHSXzelKfAFobjcaNdT4zyIa/iLnbUfKzABiqkq7jctAMPMq8BEIl2cim+qysrPQkQrOMahUuzVyH/N3RIJiIkMUvVPIqlSqAA7ux4r9Y6+yM1Y6O2ODujJwDm0HQkv3BVp+lpaXOlGiBMicTu7p0Yp+CxQyfCQb9b8kLkXxFRcVgAJqMVWFY4+iMqCG9kL+gO86M7oT1rs64c3wvCBU2tINdfHx8S1JUsqa0CDu6umG3RxdkuK5BQvtPEezoYSbBZDAYxj/X5G/fvu1IlSgpjb6MDU6euOQaBOPaIcBWb8Fuznodmzu6CO1AUk4F0EKC32ZqtToEBgMO9u+Ob3q3g6LfHNR4fC9YoXsoNjl1xpX520BQkvV8XgQ0p0C/01cqsc2tL1JcFwsBmoJ9OfnHljG9G/YP8IJJp2HZrhcj9cGDByNZ4ednTkR4D0coPmgLpU8g+35sBe47BRJKTwrEXgFg/zykPwmEk0OnI7r91MfBGdcJCqhncWM64vy8CSDoyfo05vPMmTOvkqzvlMadQGhnJ1S83xbVTEC/Bey7nqW7rsBuzwEwafVM7LJfNPm4uLg2LP2CPTHY4zwASo8T/ydg+QgLAkz/9kZYPw88vHyWK3YBgF1D0q+url7P0t/fxxMFoxw4ecGUg6ZbEEBGxPvhxwlB5kH7+i9FAAe6hZnf02Eg7rrvqReUYeE4TtrCKpb3wqG3eoJBVQ5oYJ70IHI0lxYGIMG3LnkzAb+f1CABCo8I7HLxQWXSTSY2mv088+rn5OT0YsaT/vYlTeU5FkHp/v4hJ9ygpfh1QVbochDKyVr/fJ7U1taeVt/Nw6HeLpx0fQKGD2ffDVqu+1Yc8X7PTOyoZz74aM8/ri54gH1uQ8zSr2faiYGNEgBqhYhh3WBQKbhvV5pJLSoqGg5C7IQ/onCMgyUBo73Zd6MW6fIB8nadZBVkAmj2zKqfl5fXH4DpzDvzkO22ucFgaodu4GQbtftBPXF5eQAICjIH8mtP1b9YdSURZwc4csKWNsEJNZ4nGiXgocdhHOz2J7MKpj6z6rNMq2/cwTH3vzQajKp3GCdq1RKn9IJRXQ29Xr/h3r17o0CInzwMleM54YZN9WaYVRUkuX6GrPWHWQU5AJo/9epnZ2cPBOHU8Fkocv/aajCmrwZbJUAd3Ac3ty0GoYZOfNeVWem4OsKZErVCwLDNVtfkdjziNcasAv+nXn2lUvmdOu8+Ytz9eUHrBGyfLKqC3MUDYdJrwchcOJmTtE7A+4tE173iuhS5O75nFVx7mjuCXWpqqhcAfcKEpSj1OCAaiHHnF6IEGEO8UXIsBLX38lH4XntxAj6azL5FLdb3UxC4vd5+atWvqqraqq9S4VSnjyQFYYyN5iRFrWLTCJSEzOcERa12ywyousWIq8B9KSqTb7MKYp6GCuxWrlz5Cm1Z5emLdpsPPVZN1T0GUCuBbb8VJyGkL8r9PCURoP/hIDRTf+I1RGdB8oQ1IBhpaHd84lMf7dHTQEjo/7mk6mumpUDAt/6iBOiXeXFyksxUfg+60FxJMaR0/Sf4kkaFW/2kBNjTje+Hstg0uo+vlbS4fm8+BCTvECVA/XF7ScnXzOsHhjFTISkGPhekLdjJbVAEwK7J8o+MjHQDoLvkt4EcR0pa3FSkhoDyW1aTN/2rF5QSq68JXwEz1L5nJcWRPGgZGFRA3ybLv7i4eA4IaW+slrRo7ejzYNDQjAMjbHSjBOgWd5Ysf2NOKugIfg2ASbc2S1Ist902QXG9UDhsNVn+NTU1Z/mlQ7H7fyQtqtuZy31XERQU5AvAgAshVuTvIk3+s/qCkZ6ePp/iuWxMr+K1JNmNz/ZxG9xqym5gFxAQ0IoeVmUHHpK0mKpDFEx31VAoFAfoeWe6Miej7GbDBGzqY4v8OYnawMBA98zMzJWCrAdLa4Obb28HQ6vV9rBZ/levXhVuF4WjD0qT/5RkMOjIPIKef5UOT4vAODzJcvov7yZ9+hfngE6hR8nnyzNmzHiDyNDqtuVIiqmgSygMNbWg4/Z8mw8/JSUl6wwqDUq7SiPAcLKEmb5Nz7bg9hk6dKgXtUM1rn9jQYBmfgdJyau/eBeMwsLCd9knWbuHDx9GmR5ooOp0UkJckSg9+hPfDcJsbQN7GmTHlUn5kpJX+8QCehPKysqCWD111pZIDIdODewa0qTtT58cydXL9fHxaVGXQMvo6Gg/EDQzrkjbErck8Vyy+W7wEp2iMtQR0qSm35PHizwKCwtrxwvV2csbN258C4ARF7fWI6BmSjvx4TfnNyCnIBID6whlsApcaUe4Ycx4JCm2ys8TQNDS/HjJFgL47WyZaluG+PDzPgOoDSgvLw/h1vl5G5E509vjU1BXAKGDIBCwpa/koy/FUB4cHNzGXL26z9eSk5PnCSrwTxGNT/HXeDAePXrU2RYC+AdJhWZLpnj19xeAvxsREeFRX2bC37/evn37SAAGpISadwDxm1+gr1B9Oof8QyCyvk97BweHDqTQW8YsBVQdo6wXaFIiCNyeNv1Q24YlTfu69cn/TgILnANdIcjTEoIK6He+IzBogLAxpADrBCgnOsCQeZEHasHs2bNfs+xdoR1anTp16kNB28tvWIuRVWImoJtNCmCGDdEljTrmq6npZjU0Gk3W3LlzWzcyZITB5efn9ya3FIrT+JZodQZo9i8BwXTt2rWxTGAjPplsN2qvaNQYoB4a32ic2i8yBH+5ubnONs0AGj5hUOih8oq2TN4zCoYTxeD3+OfOnRtsEahlxdrGxsZ+AsDI26JmjkfD296qcYBBz9X6mgexmdRGSHiFiaWj7n1TrhKqPqcb3p4TylhNaUKMNqBFeHj4aO5dmvAW931DVAkIBqrSx/xdkS3Gru47brdu3doolOPCbtT4OdZ/4bGZFK2t5UNPwsCBA1ubJ78YsXv37v0znzdM2Uqof3euvvw/uQwGKWWVuD/L3nXJz8//CgTjhXJo12SCZ4KpTMOVr0lLS5vJ8pa4vwrbIlkH2o6+BJ8aijOgPbCEJB8Ew/UfwaisrIwZO3asC68vwa+5FZyoWONZCdAaoT9yF9rVmdBH3GO98SXqkuUskR6wZ2Ji4jyaB9kAdNzHhG937NgxhCe8jU7t6gjz2Ldv3ziqymkmksmgS05qSkrKXK6opOQt1eXk7+/f786dO7tI7pQ5tDSbculXrOBp06a5i8hflASuSGcyL7KOZO1E+lNKwA5MLvts2bJlF/pszz1tkbx0n/xcKzJOlv11ZaJ5mIv4lOzc3nzG514SdSjus5nZZ501f0o+m7M/i1hlyJAhQ4YMGTJkyJAhQ0Z9/A/MGjKdMt/y6AAAAABJRU5ErkJggg==" sizes="64x64">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="navBlock">
+        <article>
+            <div class="logoBlock">
+                <a href="">
+                    <img src="./logo.png" alt="">
+                </a>
+            </div>
+            <div class="menuLinks">
+                <ul>
+                    <li><a href="#">men</a></li>
+                    <li><a href="#">women</a></li>
+                    <li><a href="#">kids</a></li>
+                    <li><a href="#">home&living</a></li>
+                    <li><a href="#">beauty</a></li>
+                    <li><a href="#">studio<sup>NEW</sup></a></li>
+                </ul>
+            </div>
+            <div class="searchBlock">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Search for products , brands and more">
+            </div>
+            <div class="profileBlock">
+                <ul>
+                    <li><span><i class="fa-regular fa-user"></i></span><span>Profile</span></li>
+                    <li><span><i class="fa-regular fa-heart"></i></span><span>WishList</span></li>
+                    <li><span><i class="fa-solid fa-bag-shopping"></i></span><span>Bag</span></li>
+                </ul>
+            </div>
+        </article>
+    </section>
+</body>
+</html>
+
+------
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#navBlock{
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 20px 0px #000000;
+}
+#navBlock > article{
+    width: 90%;
+    height: inherit;
+    margin: 0px auto;
+    display: flex;
+}
+.logoBlock{
+    flex-basis: 8%;
+    /* background-color: bisque; */
+    /* background-image: url("./logo.png"); */
+    /* background-size: 1404px 105px; */
+    overflow: hidden;
+    position: relative;
+}
+.logoBlock > a > img{
+    position: absolute;
+    top: -2px;
+    right: -1775px;
+}
+.menuLinks{
+    flex-basis: 37%;
+    height: inherit;
+}
+.menuLinks > ul{
+    height: inherit;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menuLinks > ul > li > a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000000b9;
+}
+.menuLinks > ul > li > a > sup{
+    color: deeppink;
+}
+.searchBlock{
+    flex-basis: 35%;
+    height: inherit;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchBlock > input{
+    width: 400px;
+    padding: 11px 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+.searchBlock > i{
+    font-size: 17px;
+    color: #919191;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+.profileBlock{
+    flex-basis: 20%;
+    height: inherit;
+}
+.profileBlock > ul{
+    height: inherit;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.profileBlock > ul > li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profileBlock > ul > li >span:last-child{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000000b9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
